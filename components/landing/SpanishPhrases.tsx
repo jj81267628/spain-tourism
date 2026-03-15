@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const phrases = [
@@ -29,6 +29,35 @@ const categoryColors: Record<string, string> = {
 
 export default function SpanishPhrases() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [playingIndex, setPlayingIndex] = useState<number | null>(null);
+  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+
+  useEffect(() => {
+    return () => { window.speechSynthesis?.cancel(); };
+  }, []);
+
+  const speak = (text: string, index: number, e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (typeof window === "undefined" || !window.speechSynthesis) return;
+
+    window.speechSynthesis.cancel();
+    utteranceRef.current = null;
+
+    if (playingIndex === index) {
+      setPlayingIndex(null);
+      return;
+    }
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "es-ES";
+    utterance.rate = 0.85;
+    utterance.onend = () => { setPlayingIndex(null); utteranceRef.current = null; };
+    utterance.onerror = () => { setPlayingIndex(null); utteranceRef.current = null; };
+
+    utteranceRef.current = utterance;
+    setPlayingIndex(index);
+    window.speechSynthesis.speak(utterance);
+  };
 
   return (
     <section className="py-20 bg-[#0d1117]">
@@ -66,12 +95,25 @@ export default function SpanishPhrases() {
                     <span className="text-white/40 hidden sm:block">→</span>
                     <span className="text-spain-gold font-semibold hidden sm:block">{phrase.spanish}</span>
                   </div>
-                  <motion.span
-                    animate={{ rotate: openIndex === i ? 45 : 0 }}
-                    className="text-white/50 text-xl"
-                  >
-                    +
-                  </motion.span>
+                  <div className="flex items-center gap-3">
+                    <motion.span
+                      role="button"
+                      tabIndex={0}
+                      aria-label={`播放 ${phrase.spanish}`}
+                      onClick={(e) => speak(phrase.spanish, i, e)}
+                      onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") speak(phrase.spanish, i, e as any); }}
+                      animate={playingIndex === i ? { scale: [1, 1.2, 1] } : { scale: 1 }}
+                      transition={playingIndex === i ? { duration: 0.7, repeat: Infinity } : { duration: 0.2 }}
+                      className={`text-lg select-none transition-colors duration-200 ${
+                        playingIndex === i ? "text-spain-gold" : "text-white/40 hover:text-white/80"
+                      }`}
+                    >
+                      🔊
+                    </motion.span>
+                    <motion.span animate={{ rotate: openIndex === i ? 45 : 0 }} className="text-white/50 text-xl">
+                      +
+                    </motion.span>
+                  </div>
                 </div>
 
                 <AnimatePresence>
