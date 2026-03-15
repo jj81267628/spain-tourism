@@ -118,7 +118,7 @@ export const itineraryA: DayData[] = [
     cityEs: "Toledo",
     region: "新卡斯蒂利亚",
     coords: [39.8628, -4.0273],
-    imageUrl: "https://images.unsplash.com/photo-1558618047-f4e20e5e28d4?w=1920&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1509233725247-49e657c54213?w=1920&q=80",
     color: "#8B6914",
     activities: [
       { time: "09:00", title: "AVE高铁前往托莱多", titleEs: "AVE a Toledo", description: "马德里阿托查站出发，30分钟抵达，票价约15€", duration: "30分钟", icon: "🚄" },
@@ -172,7 +172,7 @@ export const itineraryA: DayData[] = [
     cityEs: "Sevilla",
     region: "安达卢西亚首府",
     coords: [37.3891, -5.9845],
-    imageUrl: "https://images.unsplash.com/photo-1547450801-ed2456feef2b?w=1920&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1579202673506-ca3ce28943ef?w=1920&q=80",
     color: "#C84B31",
     activities: [
       { time: "09:00", title: "塞维利亚大教堂与希拉尔达塔", titleEs: "Catedral y Giralda", description: "世界第三大教堂，哥伦布长眠于此，登顶希拉尔达塔俯瞰全城", duration: "2小时", icon: "⛪" },

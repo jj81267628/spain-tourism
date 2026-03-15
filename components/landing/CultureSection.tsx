@@ -1,5 +1,5 @@
 "use client";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import { useRef } from "react";
 
 const cards = [
@@ -21,7 +21,7 @@ const cards = [
     title: "普拉多艺术",
     subtitle: "Prado Museum",
     description: "全球最重要的艺术博物馆之一，收藏委拉斯开兹、戈雅、鲁本斯等大师超过8000件杰作",
-    image: "https://images.unsplash.com/photo-1558618047-f4e20e5e28d4?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&q=80",
     color: "#8b6914",
   },
   {
@@ -41,12 +41,10 @@ const cards = [
 ];
 
 export default function CultureSection() {
-  const ref = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
-  const x = useTransform(scrollYProgress, [0, 1], ["10%", "-20%"]);
+  const constraintsRef = useRef<HTMLDivElement>(null);
 
   return (
-    <section ref={ref} className="py-20 overflow-hidden bg-spain-dark">
+    <section className="py-20 overflow-hidden bg-spain-dark">
       <div className="max-w-7xl mx-auto px-6 mb-12">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -62,7 +60,8 @@ export default function CultureSection() {
         </motion.div>
       </div>
 
-      <motion.div style={{ x, width: "max-content" }} className="flex gap-6 px-6 pb-4">
+      <div ref={constraintsRef} className="overflow-hidden">
+      <motion.div drag="x" dragConstraints={constraintsRef} dragElastic={0.1} className="flex gap-6 px-6 pb-4 cursor-grab active:cursor-grabbing" style={{ width: "max-content" }}>
         {cards.map((card, i) => (
           <motion.div
             key={i}
@@ -93,6 +92,7 @@ export default function CultureSection() {
           </motion.div>
         ))}
       </motion.div>
+      </div>
     </section>
   );
 }

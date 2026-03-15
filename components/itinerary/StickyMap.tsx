@@ -16,7 +16,11 @@ export default function StickyMap({ days, activeDay }: Props) {
   useEffect(() => {
     if (typeof window === "undefined" || !mapRef.current || mapInstanceRef.current) return;
 
+    let cancelled = false;
+    mapInstanceRef.current = "initializing";
+
     import("leaflet").then((L) => {
+      if (cancelled || !mapRef.current) return;
       // Fix default icon
       delete (L.Icon.Default.prototype as any)._getIconUrl;
       L.Icon.Default.mergeOptions({
@@ -64,21 +68,29 @@ export default function StickyMap({ days, activeDay }: Props) {
     });
 
     return () => {
-      if (mapInstanceRef.current) {
+      cancelled = true;
+      if (mapInstanceRef.current && mapInstanceRef.current !== "initializing") {
         mapInstanceRef.current.remove();
-        mapInstanceRef.current = null;
       }
+      mapInstanceRef.current = null;
     };
   }, []);
 
   useEffect(() => {
-    if (!mapInstanceRef.current) return;
+    if (!mapInstanceRef.current || mapInstanceRef.current === "initializing") return;
     import("leaflet").then((L) => {
       const map = mapInstanceRef.current;
+      if (!map || map === "initializing") return;
       const currentDay = days[activeDay];
       if (!currentDay) return;
 
-      map.flyTo(currentDay.coords, 10, { duration: 1.5 });
+      map.invalidateSize();
+      const size = map.getSize();
+      if (size.x > 0 && size.y > 0) {
+        map.flyTo(currentDay.coords, 10, { duration: 1.5 });
+      } else {
+        map.setView(currentDay.coords, 10, { animate: false });
+      }
 
       if (polylineRef.current) {
         map.removeLayer(polylineRef.current);

@@ -20,27 +20,29 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/70" />
       </motion.div>
 
-      <motion.div
-        style={{ opacity }}
-        className="relative h-full flex flex-col items-center justify-center text-center px-6"
-      >
+      <div className="relative h-full flex flex-col items-center justify-center text-center px-6">
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.3 }}
+          style={{ opacity }}
+          className="flex flex-col items-center"
         >
-          <p className="text-spain-gold text-sm tracking-[0.3em] uppercase mb-4 font-light">
-            Premium Travel Experience
-          </p>
-          <h1 className="text-6xl md:text-8xl font-bold text-white text-shadow mb-4 leading-tight">
-            探索西班牙
-          </h1>
-          <p className="text-2xl md:text-3xl text-white/90 font-light tracking-widest mb-2">
-            Discover Spain
-          </p>
-          <p className="text-white/70 text-lg mt-4 mb-10 font-light">
-            感受激情弗拉明戈 · 品味艺术建筑 · 畅享地中海风情
-          </p>
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.3 }}
+          >
+            <p className="text-spain-gold text-sm tracking-[0.3em] uppercase mb-4 font-light">
+              Premium Travel Experience
+            </p>
+            <h1 className="text-6xl md:text-8xl font-bold text-white text-shadow mb-4 leading-tight">
+              探索西班牙
+            </h1>
+            <p className="text-2xl md:text-3xl text-white/90 font-light tracking-widest mb-2">
+              Discover Spain
+            </p>
+            <p className="text-white/70 text-lg mt-4 mb-10 font-light">
+              感受激情弗拉明戈 · 品味艺术建筑 · 畅享地中海风情
+            </p>
+          </motion.div>
         </motion.div>
 
         <motion.div
@@ -76,7 +78,7 @@ export default function HeroSection() {
             <div className="w-1 h-2 bg-white/60 rounded-full" />
           </motion.div>
         </motion.div>
-      </motion.div>
+      </div>
     </div>
   );
 }
