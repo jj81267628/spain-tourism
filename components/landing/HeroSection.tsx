@@ -51,12 +51,12 @@ export default function HeroSection() {
           className="flex flex-col sm:flex-row gap-4"
         >
           <Link href="/itinerary-a">
-            <button className="px-8 py-4 bg-spain-red hover:bg-red-700 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg shadow-spain-red/30">
+            <button className="px-8 py-4 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg" style={{ backgroundColor: "#377D22", boxShadow: "0 8px 24px rgba(55,125,34,0.4)" }}>
               {t("spring")}
             </button>
           </Link>
           <Link href="/itinerary-b">
-            <button className="px-8 py-4 glass border-white/30 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:bg-white/20">
+            <button className="px-8 py-4 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg" style={{ backgroundColor: "#9E5835", boxShadow: "0 8px 24px rgba(158,88,53,0.4)" }}>
               {t("autumn")}
             </button>
           </Link>
