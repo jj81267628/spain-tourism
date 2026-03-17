@@ -1,6 +1,6 @@
 "use client";
-import { motion, useMotionValue, useAnimation } from "framer-motion";
-import { useRef, useCallback } from "react";
+import { motion } from "framer-motion";
+import { useRef, useEffect, useCallback } from "react";
 import { useTranslations } from "next-intl";
 
 const cardImages = [
@@ -29,30 +29,29 @@ const cardSubtitles = [
 export default function CultureSection() {
   const t = useTranslations("culture");
   const constraintsRef = useRef<HTMLDivElement>(null);
-  const mobileRef = useRef<HTMLDivElement>(null);
-  const mobileX = useMotionValue(0);
-  const mobileControls = useAnimation();
+  const mobileScrollRef = useRef<HTMLDivElement>(null);
   const cards = t.raw("cards") as Array<{ title: string; description: string }>;
 
-  // Card width (256px) + gap (24px) = 280px per card
-  const cardUnit = 280;
-  const setWidth = cards.length * cardUnit;
+  // Scroll to middle set on mount
+  useEffect(() => {
+    const el = mobileScrollRef.current;
+    if (!el) return;
+    // Each card: w-64 (256px) + gap-6 (24px) = 280px
+    const oneSetWidth = cards.length * 280;
+    el.scrollLeft = oneSetWidth;
+  }, [cards.length]);
 
-  // Start at the middle set
-  if (mobileX.get() === 0) {
-    mobileX.set(-setWidth);
-  }
-
-  const handleMobileDragEnd = useCallback(() => {
-    const x = mobileX.get();
-    // Scrolled past the end (third set) → jump back to middle
-    if (x < -setWidth * 2) {
-      mobileX.set(x + setWidth);
-    // Scrolled past the start (first set) → jump forward to middle
-    } else if (x > 0) {
-      mobileX.set(x - setWidth);
+  // Loop: when scroll reaches edges, jump to equivalent position in middle set
+  const handleMobileScroll = useCallback(() => {
+    const el = mobileScrollRef.current;
+    if (!el) return;
+    const oneSetWidth = cards.length * 280;
+    if (el.scrollLeft < 10) {
+      el.scrollLeft += oneSetWidth;
+    } else if (el.scrollLeft >= oneSetWidth * 2 - 10) {
+      el.scrollLeft -= oneSetWidth;
     }
-  }, [mobileX, setWidth]);
+  }, [cards.length]);
 
   const CardItem = ({ card, i }: { card: { title: string; description: string }; i: number }) => (
     <motion.div
@@ -110,17 +109,14 @@ export default function CultureSection() {
         </motion.div>
       </div>
 
-      {/* Mobile: draggable with loop */}
-      <div ref={mobileRef} className="md:hidden overflow-hidden">
-        <motion.div
-          className="flex gap-6 px-6 pb-4 cursor-grab active:cursor-grabbing"
-          style={{ x: mobileX, width: "max-content" }}
-          drag="x"
-          dragElastic={0.15}
-          dragConstraints={{ left: -setWidth * 3, right: setWidth }}
-          onDragEnd={handleMobileDragEnd}
-          animate={mobileControls}
-        >
+      {/* Mobile: native scroll with loop */}
+      <div
+        ref={mobileScrollRef}
+        className="md:hidden overflow-x-auto scrollbar-hide"
+        style={{ WebkitOverflowScrolling: "touch", scrollbarWidth: "none", msOverflowStyle: "none" }}
+        onScroll={handleMobileScroll}
+      >
+        <div className="flex gap-6 px-6 pb-4" style={{ width: "max-content" }}>
           {[...cards, ...cards, ...cards].map((card, i) => (
             <div
               key={i}
@@ -129,7 +125,7 @@ export default function CultureSection() {
               <img
                 src={cardImages[i % cardImages.length]}
                 alt={card.title}
-                className="w-full h-full object-cover pointer-events-none"
+                className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-5">
@@ -139,7 +135,7 @@ export default function CultureSection() {
               </div>
             </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );
