@@ -10,14 +10,14 @@ type Region = { name: string; es: string; city: string; desc: string; highlights
 type Tip = { icon: string; title: string; body: string };
 
 const dishImages = [
-  "https://images.unsplash.com/photo-1515443961218-a51367888e4b?w=600&q=80",
-  "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&q=80",
-  "https://images.unsplash.com/photo-1604467794349-0b74285de7e7?w=600&q=80",
-  "https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80",
-  "https://images.unsplash.com/photo-1624371414361-e670edf4898d?w=600&q=80",
-  "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&q=80",
-  "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=600&q=80",
-  "https://images.unsplash.com/photo-1559410545-0bdcd187e0a6?w=600&q=80",
+  "https://images.pexels.com/photos/30036946/pexels-photo-30036946.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "https://images.pexels.com/photos/22468999/pexels-photo-22468999.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "https://images.pexels.com/photos/30557313/pexels-photo-30557313.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "https://images.pexels.com/photos/36430078/pexels-photo-36430078.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "https://images.pexels.com/photos/372886/pexels-photo-372886.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "https://images.pexels.com/photos/3793871/pexels-photo-3793871.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "https://images.pexels.com/photos/4765652/pexels-photo-4765652.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "https://images.pexels.com/photos/36393691/pexels-photo-36393691.jpeg?auto=compress&cs=tinysrgb&w=600",
 ];
 
 const regionImages = [
