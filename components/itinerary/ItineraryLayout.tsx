@@ -34,10 +34,10 @@ export default function ItineraryLayout({ days, title, subtitle, season }: Props
 
       {/* Hero */}
       <div className="relative pt-32 pb-16 px-6 text-center">
-        <p className="text-spain-gold text-sm tracking-widest uppercase mb-3">{season}</p>
-        <h1 className="text-5xl md:text-6xl font-bold text-white mb-3">{title}</h1>
-        <p className="text-white/70 text-xl mb-2">{subtitle}</p>
-        <p className="text-white/50 text-sm">{days.length} {t("daysLabel")}</p>
+        <p className="text-spain-gold text-sm tracking-widest uppercase mb-3 text-shadow-sm">{season}</p>
+        <h1 className="text-5xl md:text-6xl font-bold text-white mb-3 text-shadow">{title}</h1>
+        <p className="text-white/80 text-xl mb-2 text-shadow-sm">{subtitle}</p>
+        <p className="text-white/60 text-sm text-shadow-sm">{days.length} {t("daysLabel")}</p>
       </div>
 
       {/* Day progress bar */}

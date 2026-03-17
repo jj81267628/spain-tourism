@@ -19,7 +19,7 @@ export default function HeroSection() {
           alt="Spain"
           className="w-full h-full object-cover scale-110"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/75" />
       </motion.div>
 
       <div className="relative h-full flex flex-col items-center justify-center text-center px-6">
@@ -29,16 +29,16 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
           >
-            <p className="text-spain-gold text-sm tracking-[0.3em] uppercase mb-4 font-light">
+            <p className="text-spain-gold text-sm tracking-[0.3em] uppercase mb-4 font-light text-shadow-sm">
               {t("tag")}
             </p>
             <h1 className="text-6xl md:text-8xl font-bold text-white text-shadow mb-4 leading-tight">
               {t("title")}
             </h1>
-            <p className="text-2xl md:text-3xl text-white/90 font-light tracking-widest mb-2">
+            <p className="text-2xl md:text-3xl text-white/90 font-light tracking-widest mb-2 text-shadow">
               {t("subtitle")}
             </p>
-            <p className="text-white/70 text-lg mt-4 mb-10 font-light">
+            <p className="text-white/80 text-lg mt-4 mb-10 font-light text-shadow-sm">
               {t("tagline")}
             </p>
           </motion.div>

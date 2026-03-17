@@ -60,10 +60,10 @@ export default function FoodCulturePage() {
         <div className="relative h-full flex flex-col items-center justify-center text-center px-6">
           <motion.div style={{ opacity: heroOpacity }} className="flex flex-col items-center">
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.3 }}>
-              <p className="text-spain-gold text-sm tracking-[0.3em] uppercase mb-4 font-light">{t("heroTag")}</p>
+              <p className="text-spain-gold text-sm tracking-[0.3em] uppercase mb-4 font-light text-shadow-sm">{t("heroTag")}</p>
               <h1 className="text-6xl md:text-8xl font-bold text-white text-shadow mb-4 leading-tight">{t("heroTitle")}</h1>
-              <p className="text-2xl md:text-3xl text-white/90 font-light tracking-widest mb-2">{t("heroSubtitle")}</p>
-              <p className="text-white/70 text-lg mt-4 font-light">{t("heroTagline")}</p>
+              <p className="text-2xl md:text-3xl text-white/90 font-light tracking-widest mb-2 text-shadow">{t("heroSubtitle")}</p>
+              <p className="text-white/80 text-lg mt-4 font-light text-shadow-sm">{t("heroTagline")}</p>
             </motion.div>
           </motion.div>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5 }} className="absolute bottom-8 flex flex-col items-center">
