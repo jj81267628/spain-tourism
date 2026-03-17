@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 
 const cardImages = [
@@ -29,6 +29,8 @@ const cardSubtitles = [
 export default function CultureSection() {
   const t = useTranslations("culture");
   const constraintsRef = useRef<HTMLDivElement>(null);
+  const mobileConstraintsRef = useRef<HTMLDivElement>(null);
+  const [paused, setPaused] = useState(false);
   const cards = t.raw("cards") as Array<{ title: string; description: string }>;
 
   const CardItem = ({ card, i }: { card: { title: string; description: string }; i: number }) => (
@@ -87,13 +89,21 @@ export default function CultureSection() {
         </motion.div>
       </div>
 
-      {/* Mobile: infinite auto-scroll marquee */}
-      <div className="md:hidden overflow-hidden">
+      {/* Mobile: infinite auto-scroll marquee with touch pause + drag */}
+      <div
+        ref={mobileConstraintsRef}
+        className="md:hidden overflow-hidden"
+        onTouchStart={() => setPaused(true)}
+        onTouchEnd={() => setPaused(false)}
+      >
         <motion.div
-          className="flex gap-6 px-6 pb-4"
+          className="flex gap-6 px-6 pb-4 cursor-grab active:cursor-grabbing"
           style={{ width: "max-content" }}
-          animate={{ x: ["0%", "-50%"] }}
-          transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
+          animate={paused ? undefined : { x: ["0%", "-50%"] }}
+          transition={paused ? undefined : { duration: 40, repeat: Infinity, ease: "linear" }}
+          drag="x"
+          dragConstraints={mobileConstraintsRef}
+          dragElastic={0.1}
         >
           {[...cards, ...cards].map((card, i) => (
             <div
@@ -103,7 +113,7 @@ export default function CultureSection() {
               <img
                 src={cardImages[i % cardImages.length]}
                 alt={card.title}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover pointer-events-none"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-5">

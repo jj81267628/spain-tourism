@@ -53,7 +53,7 @@ export default function HeroSection() {
           className="flex flex-col sm:flex-row gap-4"
         >
           <Link href="/itinerary-a" className="flex-1 min-w-[180px]">
-            <button className="w-full px-8 py-4 rounded-full border-2 border-white/60 text-white font-semibold tracking-wide whitespace-nowrap transition-all duration-300 hover:bg-white/15 hover:border-white hover:scale-105">
+            <button className="w-full px-8 py-4 rounded-full border-2 border-white/60 text-white/60 font-semibold tracking-wide whitespace-nowrap transition-all duration-300 hover:bg-white/60 hover:text-black hover:scale-105 shadow-[0_0_20px_rgba(255,255,255,0.15)]">
               {t("spring")}
             </button>
           </Link>
@@ -63,7 +63,7 @@ export default function HeroSection() {
             </button>
           </Link>
           <Link href="/food-culture" className="flex-1 min-w-[180px]">
-            <button className="w-full px-8 py-4 rounded-full border-2 border-spain-red/70 text-white font-semibold tracking-wide whitespace-nowrap transition-all duration-300 hover:bg-spain-red/20 hover:border-spain-red hover:scale-105">
+            <button className="w-full px-8 py-4 rounded-full border-2 border-white/60 text-white/60 font-semibold tracking-wide whitespace-nowrap transition-all duration-300 hover:bg-white/60 hover:text-black hover:scale-105 shadow-[0_0_20px_rgba(255,255,255,0.15)]">
               {t("food")}
             </button>
           </Link>
