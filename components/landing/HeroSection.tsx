@@ -35,9 +35,11 @@ export default function HeroSection() {
             <h1 className="text-6xl md:text-8xl font-bold text-white text-shadow mb-4 leading-tight">
               {t("title")}
             </h1>
-            <p className="text-2xl md:text-3xl text-white/90 font-light tracking-widest mb-2 text-shadow">
-              {t("subtitle")}
-            </p>
+            {t("subtitle") && (
+              <p className="text-2xl md:text-3xl text-white/90 font-light tracking-widest mb-2 text-shadow">
+                {t("subtitle")}
+              </p>
+            )}
             <p className="text-white/80 text-lg mt-4 mb-10 font-light text-shadow-sm">
               {t("tagline")}
             </p>
@@ -50,13 +52,13 @@ export default function HeroSection() {
           transition={{ duration: 1, delay: 0.8 }}
           className="flex flex-col sm:flex-row gap-4"
         >
-          <Link href="/itinerary-a" className="flex-1">
-            <button className="w-full px-8 py-4 bg-spain-red hover:bg-red-700 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg shadow-spain-red/30">
+          <Link href="/itinerary-a" className="flex-1 min-w-[180px]">
+            <button className="w-full px-8 py-4 rounded-full border-2 border-white/60 text-white font-semibold tracking-wide whitespace-nowrap transition-all duration-300 hover:bg-white/15 hover:border-white hover:scale-105">
               {t("spring")}
             </button>
           </Link>
-          <Link href="/itinerary-b" className="flex-1">
-            <button className="w-full px-8 py-4 glass border-white/30 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:bg-white/20">
+          <Link href="/itinerary-b" className="flex-1 min-w-[180px]">
+            <button className="w-full px-8 py-4 rounded-full border-2 border-spain-gold text-spain-gold font-semibold tracking-wide whitespace-nowrap transition-all duration-300 hover:bg-spain-gold hover:text-black hover:scale-105 shadow-[0_0_20px_rgba(196,160,60,0.25)]">
               {t("autumn")}
             </button>
           </Link>

@@ -12,10 +12,10 @@
   "hero": {
     "tag": "Premium Travel Experience",
     "title": "Discover Spain",
-    "subtitle": "Discover Spain",
+    "subtitle": "",
     "tagline": "Flamenco · Art · Mediterranean",
-    "spring": "Spring · 9 Days",
-    "autumn": "Autumn · 9 Days",
+    "spring": "Spring Journey",
+    "autumn": "Autumn Journey",
     "scroll": "Scroll"
   },
   "culture": {
