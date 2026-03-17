@@ -25,6 +25,7 @@ export interface DayData {
     stars: number;
     description: string;
     price: string;
+    mapUrl?: string;
   };
   food: {
     dish: string;
@@ -44,7 +45,7 @@ const zh: DayData[] = [
       { time: "16:00", title: "马约尔广场", titleEs: "Plaza Mayor", description: "巴洛克风格的历史广场，周围是17世纪的建筑，露天咖啡馆林立", duration: "1.5小时", icon: "🏛️" },
       { time: "19:00", title: "马德里王宫附近漫步", titleEs: "Palacio Real", description: "欣赏宫殿外观夜景，周边公园散步", duration: "1小时", icon: "🌆" },
     ],
-    hotel: { name: "梅里亚皇家大道酒店", stars: 5, description: "位于市中心，距太阳门步行5分钟", price: "¥1,200/晚" },
+    hotel: { name: "梅里亚皇家大道酒店", stars: 5, description: "位于市中心，距太阳门步行5分钟", price: "¥1,200/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=Melia+Gran+Via+Madrid" },
     food: [
       { dish: "马德里炖肉", dishEs: "Cocido Madrileño", restaurant: "Casa Lucio", description: "马德里传统炖菜，含鹰嘴豆、猪肉和蔬菜" },
       { dish: "西班牙煎蛋饼", dishEs: "Tortilla Española", restaurant: "Bar Cervantes", description: "马铃薯鸡蛋煎饼，西班牙国民小吃" },
@@ -59,7 +60,7 @@ const zh: DayData[] = [
       { time: "16:00", title: "索菲亚王后艺术中心", titleEs: "Museo Reina Sofía", description: "毕加索《格尔尼卡》的永久展馆，20世纪现代艺术珍藏", duration: "2小时", icon: "🖼️" },
       { time: "20:00", title: "格兰大道夜生活", titleEs: "Gran Vía", description: "西班牙的百老汇，剧院、餐厅、酒吧林立", duration: "2小时", icon: "🌃" },
     ],
-    hotel: { name: "梅里亚皇家大道酒店", stars: 5, description: "连住第二晚", price: "¥1,200/晚" },
+    hotel: { name: "梅里亚皇家大道酒店", stars: 5, description: "连住第二晚", price: "¥1,200/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=Melia+Gran+Via+Madrid" },
     food: [
       { dish: "烤乳猪", dishEs: "Cochinillo Asado", restaurant: "Sobrino de Botín", description: "世界最古老餐厅，1725年营业至今，烤乳猪是招牌" },
       { dish: "火腿伊比利亚", dishEs: "Jamón Ibérico", restaurant: "Museo del Jamón", description: "西班牙最珍贵的橡木林放养黑蹄猪火腿" },
@@ -74,7 +75,7 @@ const zh: DayData[] = [
       { time: "15:00", title: "拉斯特罗跳蚤市场", titleEs: "El Rastro", description: "周日古董市场（周日限定），寻找西班牙纪念品", duration: "1.5小时", icon: "🎭" },
       { time: "18:00", title: "弗拉明戈表演", titleEs: "Espectáculo Flamenco", description: "在卡萨帕塔观看正宗弗拉明戈秀，建议提前订票", duration: "2小时", icon: "💃" },
     ],
-    hotel: { name: "梅里亚皇家大道酒店", stars: 5, description: "连住第三晚", price: "¥1,200/晚" },
+    hotel: { name: "梅里亚皇家大道酒店", stars: 5, description: "连住第三晚", price: "¥1,200/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=Melia+Gran+Via+Madrid" },
     food: [
       { dish: "蒜香虾", dishEs: "Gambas al Ajillo", restaurant: "Casa Revuelta", description: "橄榄油蒜香烹调的新鲜虾，配面包蘸汁" },
       { dish: "马德里小吃拼盘", dishEs: "Tapas Variadas", restaurant: "La Casa del Abuelo", description: "传统小酒馆，各类tapas配本地红酒" },
@@ -90,7 +91,7 @@ const zh: DayData[] = [
       { time: "16:00", title: "圣托梅教堂 - 格列柯名画", titleEs: "Iglesia de Santo Tomé", description: "收藏格列柯最著名作品《奥尔加斯伯爵的葬礼》", duration: "45分钟", icon: "🎨" },
       { time: "18:30", title: "返回马德里", titleEs: "Regreso a Madrid", description: "高铁返回，晚上抵达科尔多瓦酒店", duration: "30分钟", icon: "🚄" },
     ],
-    hotel: { name: "科尔多瓦帕拉多尔酒店", stars: 4, description: "明日转战科尔多瓦，今晚早休", price: "¥900/晚" },
+    hotel: { name: "科尔多瓦帕拉多尔酒店", stars: 4, description: "明日转战科尔多瓦，今晚早休", price: "¥900/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=Parador+de+Cordoba" },
     food: [
       { dish: "杏仁糖", dishEs: "Mazapán", restaurant: "Santo Tomé", description: "托莱多特产，用杏仁和糖制成的传统甜点" },
       { dish: "卡斯蒂利亚炖肉", dishEs: "Carcamusa", restaurant: "Restaurante Adolfo", description: "托莱多传统炖猪肉配蔬菜" },
@@ -106,7 +107,7 @@ const zh: DayData[] = [
       { time: "16:30", title: "麦地那·扎赫拉宫遗址", titleEs: "Medina Azahara", description: "10世纪哈里发宫城遗址，壮观的考古遗迹", duration: "1.5小时", icon: "🏛️" },
       { time: "19:30", title: "驾车前往塞维利亚", titleEs: "Conducir a Sevilla", description: "约1.5小时车程，或乘坐大巴", duration: "1.5小时", icon: "🚗" },
     ],
-    hotel: { name: "塞维利亚EME大教堂酒店", stars: 5, description: "面对塞维利亚大教堂，绝佳位置", price: "¥1,400/晚" },
+    hotel: { name: "塞维利亚EME大教堂酒店", stars: 5, description: "面对塞维利亚大教堂，绝佳位置", price: "¥1,400/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=Hotel+EME+Catedral+Sevilla" },
     food: [
       { dish: "冷汤", dishEs: "Salmorejo", restaurant: "Casa Pepe de la Judería", description: "科尔多瓦特色番茄冷汤，比西班牙冷汤更浓稠" },
       { dish: "牛尾炖", dishEs: "Rabo de Toro", restaurant: "El Churrasco", description: "安达卢西亚招牌菜，慢炖牛尾香气浓郁" },
@@ -121,7 +122,7 @@ const zh: DayData[] = [
       { time: "15:00", title: "西班牙广场", titleEs: "Plaza de España", description: "宏伟的半圆形广场，《星球大战》和《阿拉伯的劳伦斯》取景地", duration: "1.5小时", icon: "🌟" },
       { time: "20:30", title: "正宗弗拉明戈秀", titleEs: "Flamenco Auténtico", description: "塔布拉奥·德卡门弗拉明戈表演，塞维利亚是弗拉明戈发源地", duration: "2小时", icon: "💃" },
     ],
-    hotel: { name: "塞维利亚EME大教堂酒店", stars: 5, description: "连住第二晚", price: "¥1,400/晚" },
+    hotel: { name: "塞维利亚EME大教堂酒店", stars: 5, description: "连住第二晚", price: "¥1,400/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=Hotel+EME+Catedral+Sevilla" },
     food: [
       { dish: "炸鱼", dishEs: "Pescaíto Frito", restaurant: "Bar El Comercio", description: "安达卢西亚传统炸鱼，配柠檬汁" },
       { dish: "橄榄和腌制品", dishEs: "Aceitunas y Encurtidos", restaurant: "Bodega Santa Cruz", description: "塞维利亚最著名的老酒吧，塔帕斯文化发源地" },
@@ -136,7 +137,7 @@ const zh: DayData[] = [
       { time: "14:30", title: "塞维利亚自由市场", titleEs: "Mercado de Triana", description: "当地人购物的传统市场，新鲜海鲜、火腿、橄榄油", duration: "1小时", icon: "🛒" },
       { time: "16:30", title: "驾车前往格拉纳达", titleEs: "Conducir a Granada", description: "约3小时车程，沿途欣赏安达卢西亚平原", duration: "3小时", icon: "🚗" },
     ],
-    hotel: { name: "格拉纳达帕拉多尔酒店", stars: 5, description: "位于阿尔罕布拉宫内，传奇住宿体验", price: "¥2,200/晚" },
+    hotel: { name: "格拉纳达帕拉多尔酒店", stars: 5, description: "位于阿尔罕布拉宫内，传奇住宿体验", price: "¥2,200/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=Parador+de+Granada" },
     food: [
       { dish: "塞维利亚炸茄子", dishEs: "Berenjenas con Miel", restaurant: "El Rinconcillo", description: "西班牙最古老酒吧，炸茄子配蜂蜜是招牌" },
     ],
@@ -150,7 +151,7 @@ const zh: DayData[] = [
       { time: "15:30", title: "观光台看日落", titleEs: "Mirador de San Nicolás", description: "格拉纳达最美观景台，夕阳下的阿尔罕布拉宫是毕生难忘的景象", duration: "2小时", icon: "🌅" },
       { time: "20:00", title: "洞穴弗拉明戈秀", titleEs: "Flamenco en Cuevas", description: "萨克罗蒙特洞穴区，感受最原始的弗拉明戈表演", duration: "2小时", icon: "💃" },
     ],
-    hotel: { name: "格拉纳达帕拉多尔酒店", stars: 5, description: "连住第二晚，阿尔罕布拉宫内", price: "¥2,200/晚" },
+    hotel: { name: "格拉纳达帕拉多尔酒店", stars: 5, description: "连住第二晚，阿尔罕布拉宫内", price: "¥2,200/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=Parador+de+Granada" },
     food: [
       { dish: "摩洛哥式鸡肉", dishEs: "Pollo a la Morisca", restaurant: "Restaurante Arrayanes", description: "融合摩尔风味的鸡肉料理，藏红花和干果调味" },
       { dish: "格拉纳达塔帕斯", dishEs: "Tapas Granadinas", restaurant: "Bar Los Diamantes", description: "格拉纳达特色：点一杯饮料免费附赠塔帕斯" },
@@ -165,7 +166,7 @@ const zh: DayData[] = [
       { time: "14:00", title: "纪念品购物", titleEs: "Compras de Recuerdos", description: "采购陶瓷、皮革制品、藏红花、橄榄油等特产", duration: "1.5小时", icon: "🛍️" },
       { time: "17:00", title: "乘坐大巴/高铁返回马德里", titleEs: "Regreso a Madrid", description: "大巴约5小时，或先到马拉加乘AVE约2.5小时", duration: "5小时", icon: "🚌" },
     ],
-    hotel: { name: "马德里机场希尔顿", stars: 4, description: "机场酒店，方便次日早班机返回", price: "¥800/晚" },
+    hotel: { name: "马德里机场希尔顿", stars: 4, description: "机场酒店，方便次日早班机返回", price: "¥800/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=Hilton+Madrid+Airport" },
     food: [
       { dish: "格拉纳达早餐", dishEs: "Desayuno Granadino", restaurant: "Café Fútbol", description: "创立于1891年的传统咖啡馆，牛奶咖啡配油炸面团" },
     ],
@@ -182,7 +183,7 @@ const en: DayData[] = [
       { time: "16:00", title: "Plaza Mayor", titleEs: "Plaza Mayor", description: "Baroque historic square surrounded by 17th-century buildings, lined with outdoor cafés", duration: "1.5 hrs", icon: "🏛️" },
       { time: "19:00", title: "Evening Walk near Royal Palace", titleEs: "Palacio Real", description: "Admire the palace facade at dusk and stroll through the surrounding gardens", duration: "1 hr", icon: "🌆" },
     ],
-    hotel: { name: "Meliá Gran Vía", stars: 5, description: "City centre, 5 min walk from Puerta del Sol", price: "€150/night" },
+    hotel: { name: "Meliá Gran Vía", stars: 5, description: "City centre, 5 min walk from Puerta del Sol", price: "€150/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=Melia+Gran+Via+Madrid" },
     food: [
       { dish: "Cocido Madrileño", dishEs: "Cocido Madrileño", restaurant: "Casa Lucio", description: "Madrid's traditional stew with chickpeas, pork and vegetables" },
       { dish: "Tortilla Española", dishEs: "Tortilla Española", restaurant: "Bar Cervantes", description: "Spanish potato omelette — a beloved national staple" },
@@ -197,7 +198,7 @@ const en: DayData[] = [
       { time: "16:00", title: "Reina Sofía Museum", titleEs: "Museo Reina Sofía", description: "Permanent home of Picasso's Guernica, treasure trove of 20th-century modern art", duration: "2 hrs", icon: "🖼️" },
       { time: "20:00", title: "Gran Vía Nightlife", titleEs: "Gran Vía", description: "Spain's Broadway — theatres, restaurants and bars light up the night", duration: "2 hrs", icon: "🌃" },
     ],
-    hotel: { name: "Meliá Gran Vía", stars: 5, description: "Second night", price: "€150/night" },
+    hotel: { name: "Meliá Gran Vía", stars: 5, description: "Second night", price: "€150/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=Melia+Gran+Via+Madrid" },
     food: [
       { dish: "Roast Suckling Pig", dishEs: "Cochinillo Asado", restaurant: "Sobrino de Botín", description: "The world's oldest restaurant (1725) — their suckling pig is legendary" },
       { dish: "Jamón Ibérico", dishEs: "Jamón Ibérico", restaurant: "Museo del Jamón", description: "Spain's prized acorn-fed black-footed cured ham" },
@@ -212,7 +213,7 @@ const en: DayData[] = [
       { time: "15:00", title: "El Rastro Flea Market", titleEs: "El Rastro", description: "Sunday antique market — hunt for Spanish souvenirs and curiosities", duration: "1.5 hrs", icon: "🎭" },
       { time: "18:00", title: "Flamenco Show", titleEs: "Espectáculo Flamenco", description: "Authentic flamenco at Casa Patas — book tickets in advance", duration: "2 hrs", icon: "💃" },
     ],
-    hotel: { name: "Meliá Gran Vía", stars: 5, description: "Third night", price: "€150/night" },
+    hotel: { name: "Meliá Gran Vía", stars: 5, description: "Third night", price: "€150/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=Melia+Gran+Via+Madrid" },
     food: [
       { dish: "Gambas al Ajillo", dishEs: "Gambas al Ajillo", restaurant: "Casa Revuelta", description: "Fresh prawns in garlic olive oil — mop up the sauce with crusty bread" },
       { dish: "Tapas Variadas", dishEs: "Tapas Variadas", restaurant: "La Casa del Abuelo", description: "Traditional tavern, assorted tapas with local red wine" },
@@ -228,7 +229,7 @@ const en: DayData[] = [
       { time: "16:00", title: "Church of Santo Tomé", titleEs: "Iglesia de Santo Tomé", description: "Home of El Greco's masterpiece The Burial of the Count of Orgaz", duration: "45 min", icon: "🎨" },
       { time: "18:30", title: "Return towards Córdoba", titleEs: "Regreso a Madrid", description: "High-speed train back — overnight in Córdoba hotel", duration: "30 min", icon: "🚄" },
     ],
-    hotel: { name: "Parador de Córdoba", stars: 4, description: "Tomorrow's base — check in and rest early", price: "€110/night" },
+    hotel: { name: "Parador de Córdoba", stars: 4, description: "Tomorrow's base — check in and rest early", price: "€110/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=Parador+de+Cordoba" },
     food: [
       { dish: "Mazapán", dishEs: "Mazapán", restaurant: "Santo Tomé", description: "Toledo's famous marzipan — made with almonds and sugar since the Middle Ages" },
       { dish: "Carcamusa", dishEs: "Carcamusa", restaurant: "Restaurante Adolfo", description: "Toledo's traditional pork and vegetable stew" },
@@ -244,7 +245,7 @@ const en: DayData[] = [
       { time: "16:30", title: "Medina Azahara", titleEs: "Medina Azahara", description: "10th-century Caliph's palace city ruins — spectacular archaeological site", duration: "1.5 hrs", icon: "🏛️" },
       { time: "19:30", title: "Drive to Seville", titleEs: "Conducir a Sevilla", description: "~1.5 hrs by car or coach", duration: "1.5 hrs", icon: "🚗" },
     ],
-    hotel: { name: "Hotel EME Catedral Seville", stars: 5, description: "Directly facing Seville Cathedral — unbeatable location", price: "€175/night" },
+    hotel: { name: "Hotel EME Catedral Seville", stars: 5, description: "Directly facing Seville Cathedral — unbeatable location", price: "€175/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=Hotel+EME+Catedral+Sevilla" },
     food: [
       { dish: "Salmorejo", dishEs: "Salmorejo", restaurant: "Casa Pepe de la Judería", description: "Córdoba's thick cold tomato soup — richer than gazpacho" },
       { dish: "Rabo de Toro", dishEs: "Rabo de Toro", restaurant: "El Churrasco", description: "Andalusian slow-braised oxtail — rich, aromatic, unmissable" },
@@ -259,7 +260,7 @@ const en: DayData[] = [
       { time: "15:00", title: "Plaza de España", titleEs: "Plaza de España", description: "Spectacular semi-circular plaza — filming location for Star Wars and Lawrence of Arabia", duration: "1.5 hrs", icon: "🌟" },
       { time: "20:30", title: "Authentic Flamenco Show", titleEs: "Flamenco Auténtico", description: "Tablao del Carmen flamenco performance — Seville is flamenco's birthplace", duration: "2 hrs", icon: "💃" },
     ],
-    hotel: { name: "Hotel EME Catedral Seville", stars: 5, description: "Second night", price: "€175/night" },
+    hotel: { name: "Hotel EME Catedral Seville", stars: 5, description: "Second night", price: "€175/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=Hotel+EME+Catedral+Sevilla" },
     food: [
       { dish: "Pescaíto Frito", dishEs: "Pescaíto Frito", restaurant: "Bar El Comercio", description: "Andalusian fried fish — crispy, fresh, served with lemon" },
       { dish: "Aceitunas y Encurtidos", dishEs: "Aceitunas y Encurtidos", restaurant: "Bodega Santa Cruz", description: "Seville's most celebrated old bar — a pillar of tapas culture" },
@@ -274,7 +275,7 @@ const en: DayData[] = [
       { time: "14:30", title: "Triana Market", titleEs: "Mercado de Triana", description: "Local covered market with fresh seafood, ham and olive oil", duration: "1 hr", icon: "🛒" },
       { time: "16:30", title: "Drive to Granada", titleEs: "Conducir a Granada", description: "~3 hrs through the Andalusian plains", duration: "3 hrs", icon: "🚗" },
     ],
-    hotel: { name: "Parador de Granada", stars: 5, description: "Located inside the Alhambra — a legendary stay", price: "€280/night" },
+    hotel: { name: "Parador de Granada", stars: 5, description: "Located inside the Alhambra — a legendary stay", price: "€280/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=Parador+de+Granada" },
     food: [
       { dish: "Berenjenas con Miel", dishEs: "Berenjenas con Miel", restaurant: "El Rinconcillo", description: "Spain's oldest bar — fried aubergine drizzled with honey" },
     ],
@@ -288,7 +289,7 @@ const en: DayData[] = [
       { time: "15:30", title: "Mirador de San Nicolás at Sunset", titleEs: "Mirador de San Nicolás", description: "Granada's most beautiful viewpoint — the Alhambra at sunset is a once-in-a-lifetime sight", duration: "2 hrs", icon: "🌅" },
       { time: "20:00", title: "Cave Flamenco Show", titleEs: "Flamenco en Cuevas", description: "Sacromonte cave district — flamenco in its most raw and authentic setting", duration: "2 hrs", icon: "💃" },
     ],
-    hotel: { name: "Parador de Granada", stars: 5, description: "Second night inside the Alhambra", price: "€280/night" },
+    hotel: { name: "Parador de Granada", stars: 5, description: "Second night inside the Alhambra", price: "€280/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=Parador+de+Granada" },
     food: [
       { dish: "Pollo a la Morisca", dishEs: "Pollo a la Morisca", restaurant: "Restaurante Arrayanes", description: "Moorish-influenced chicken dish with saffron and dried fruits" },
       { dish: "Tapas Granadinas", dishEs: "Tapas Granadinas", restaurant: "Bar Los Diamantes", description: "Granada's generous tradition: order a drink, get a free tapa" },
@@ -303,7 +304,7 @@ const en: DayData[] = [
       { time: "14:00", title: "Souvenir Shopping", titleEs: "Compras de Recuerdos", description: "Stock up on ceramics, leather goods, saffron and olive oil", duration: "1.5 hrs", icon: "🛍️" },
       { time: "17:00", title: "Return Journey", titleEs: "Regreso a Madrid", description: "Coach ~5 hrs, or train via Málaga ~2.5 hrs to Madrid", duration: "5 hrs", icon: "🚌" },
     ],
-    hotel: { name: "Madrid Airport Hilton", stars: 4, description: "Airport hotel for an early morning flight home", price: "€100/night" },
+    hotel: { name: "Madrid Airport Hilton", stars: 4, description: "Airport hotel for an early morning flight home", price: "€100/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=Hilton+Madrid+Airport" },
     food: [
       { dish: "Desayuno Granadino", dishEs: "Desayuno Granadino", restaurant: "Café Fútbol", description: "Founded in 1891 — traditional coffee with fried dough sticks for a final Spanish breakfast" },
     ],
@@ -320,7 +321,7 @@ const ja: DayData[] = [
       { time: "16:00", title: "マヨール広場", titleEs: "Plaza Mayor", description: "17世紀の建物に囲まれたバロック様式の歴史的広場、オープンカフェが並ぶ", duration: "1.5時間", icon: "🏛️" },
       { time: "19:00", title: "王宮周辺の散策", titleEs: "Palacio Real", description: "夜の宮殿外観を鑑賞し、周辺の公園を散歩", duration: "1時間", icon: "🌆" },
     ],
-    hotel: { name: "メリア・グラン・ビア", stars: 5, description: "市中心部、プエルタ・デル・ソルから徒歩5分", price: "€150/泊" },
+    hotel: { name: "メリア・グラン・ビア", stars: 5, description: "市中心部、プエルタ・デル・ソルから徒歩5分", price: "€150/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=Melia+Gran+Via+Madrid" },
     food: [
       { dish: "コシード・マドリレーニョ", dishEs: "Cocido Madrileño", restaurant: "Casa Lucio", description: "ひよこ豆、豚肉、野菜を煮込んだマドリードの伝統料理" },
       { dish: "トルティーリャ・エスパニョーラ", dishEs: "Tortilla Española", restaurant: "Bar Cervantes", description: "じゃがいも入りスペイン風オムレツ、国民食" },
@@ -335,7 +336,7 @@ const ja: DayData[] = [
       { time: "16:00", title: "レイナ・ソフィア王妃芸術センター", titleEs: "Museo Reina Sofía", description: "ピカソの「ゲルニカ」の永久展示館、20世紀現代美術の宝庫", duration: "2時間", icon: "🖼️" },
       { time: "20:00", title: "グラン・ビアの夜", titleEs: "Gran Vía", description: "スペインのブロードウェイ — 劇場、レストラン、バーが立ち並ぶ", duration: "2時間", icon: "🌃" },
     ],
-    hotel: { name: "メリア・グラン・ビア", stars: 5, description: "2泊目", price: "€150/泊" },
+    hotel: { name: "メリア・グラン・ビア", stars: 5, description: "2泊目", price: "€150/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=Melia+Gran+Via+Madrid" },
     food: [
       { dish: "コチニーリョ・アサード", dishEs: "Cochinillo Asado", restaurant: "Sobrino de Botín", description: "1725年創業の世界最古のレストラン。看板料理の子豚の丸焼き" },
       { dish: "ハモン・イベリコ", dishEs: "Jamón Ibérico", restaurant: "Museo del Jamón", description: "スペインが誇るどんぐり育ちの黒蹄豚の生ハム" },
@@ -350,7 +351,7 @@ const ja: DayData[] = [
       { time: "15:00", title: "エル・ラストロ蚤の市", titleEs: "El Rastro", description: "日曜限定のアンティーク市場 — スペインのお土産を探すなら", duration: "1.5時間", icon: "🎭" },
       { time: "18:00", title: "フラメンコショー", titleEs: "Espectáculo Flamenco", description: "カサ・パタスで本場フラメンコを鑑賞 — 事前予約がおすすめ", duration: "2時間", icon: "💃" },
     ],
-    hotel: { name: "メリア・グラン・ビア", stars: 5, description: "3泊目", price: "€150/泊" },
+    hotel: { name: "メリア・グラン・ビア", stars: 5, description: "3泊目", price: "€150/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=Melia+Gran+Via+Madrid" },
     food: [
       { dish: "ガンバス・アル・アヒーリョ", dishEs: "Gambas al Ajillo", restaurant: "Casa Revuelta", description: "ガーリックオリーブオイルで炒めた新鮮なエビ — ソースはパンでぬぐって" },
       { dish: "タパス・バリアダス", dishEs: "Tapas Variadas", restaurant: "La Casa del Abuelo", description: "伝統的な居酒屋で各種タパスと地元赤ワイン" },
@@ -366,7 +367,7 @@ const ja: DayData[] = [
       { time: "16:00", title: "サント・トメ教会", titleEs: "Iglesia de Santo Tomé", description: "エル・グレコの最高傑作「オルガス伯の埋葬」を所蔵", duration: "45分", icon: "🎨" },
       { time: "18:30", title: "コルドバへ向かう", titleEs: "Regreso a Madrid", description: "高速鉄道で移動、今夜はコルドバで宿泊", duration: "30分", icon: "🚄" },
     ],
-    hotel: { name: "パラドール・デ・コルドバ", stars: 4, description: "明日の拠点 — 早めにチェックインして休息", price: "€110/泊" },
+    hotel: { name: "パラドール・デ・コルドバ", stars: 4, description: "明日の拠点 — 早めにチェックインして休息", price: "€110/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=Parador+de+Cordoba" },
     food: [
       { dish: "マサパン", dishEs: "Mazapán", restaurant: "Santo Tomé", description: "トレドの名物マジパン — アーモンドと砂糖で作る伝統菓子" },
       { dish: "カルカムーサ", dishEs: "Carcamusa", restaurant: "Restaurante Adolfo", description: "トレドの伝統的な豚肉と野菜の煮込み料理" },
@@ -382,7 +383,7 @@ const ja: DayData[] = [
       { time: "16:30", title: "メディナ・アサーラ遺跡", titleEs: "Medina Azahara", description: "10世紀のカリフの宮殿都市遺跡 — 壮大な考古学的遺産", duration: "1.5時間", icon: "🏛️" },
       { time: "19:30", title: "セビリアへドライブ", titleEs: "Conducir a Sevilla", description: "車またはバスで約1.5時間", duration: "1.5時間", icon: "🚗" },
     ],
-    hotel: { name: "ホテルEMEカテドラル・セビリア", stars: 5, description: "セビリア大聖堂に面した絶好のロケーション", price: "€175/泊" },
+    hotel: { name: "ホテルEMEカテドラル・セビリア", stars: 5, description: "セビリア大聖堂に面した絶好のロケーション", price: "€175/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=Hotel+EME+Catedral+Sevilla" },
     food: [
       { dish: "サルモレホ", dishEs: "Salmorejo", restaurant: "Casa Pepe de la Judería", description: "コルドバ特産の濃厚トマト冷スープ — ガスパチョより濃い" },
       { dish: "ラボ・デ・トロ", dishEs: "Rabo de Toro", restaurant: "El Churrasco", description: "アンダルシアの看板料理、牛テールのブレイズ" },
@@ -397,7 +398,7 @@ const ja: DayData[] = [
       { time: "15:00", title: "スペイン広場", titleEs: "Plaza de España", description: "壮大な半円形広場 — スター・ウォーズやアラビアのロレンスの撮影地", duration: "1.5時間", icon: "🌟" },
       { time: "20:30", title: "本場フラメンコショー", titleEs: "Flamenco Auténtico", description: "タブラオ・デル・カルメンでフラメンコを鑑賞 — セビリアはフラメンコ発祥の地", duration: "2時間", icon: "💃" },
     ],
-    hotel: { name: "ホテルEMEカテドラル・セビリア", stars: 5, description: "2泊目", price: "€175/泊" },
+    hotel: { name: "ホテルEMEカテドラル・セビリア", stars: 5, description: "2泊目", price: "€175/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=Hotel+EME+Catedral+Sevilla" },
     food: [
       { dish: "ペスカイート・フリート", dishEs: "Pescaíto Frito", restaurant: "Bar El Comercio", description: "アンダルシアの揚げ魚 — サクサク、新鮮、レモンを添えて" },
       { dish: "アセイトゥーナス・エンクルティドス", dishEs: "Aceitunas y Encurtidos", restaurant: "Bodega Santa Cruz", description: "セビリア最古の酒場 — タパス文化の発祥の地" },
@@ -412,7 +413,7 @@ const ja: DayData[] = [
       { time: "14:30", title: "トリアナ市場", titleEs: "Mercado de Triana", description: "地元民が通う伝統市場 — 新鮮な魚介類、ハモン、オリーブオイル", duration: "1時間", icon: "🛒" },
       { time: "16:30", title: "グラナダへドライブ", titleEs: "Conducir a Granada", description: "アンダルシアの平原を眺めながら約3時間", duration: "3時間", icon: "🚗" },
     ],
-    hotel: { name: "パラドール・デ・グラナダ", stars: 5, description: "アルハンブラ宮殿内に位置する伝説のホテル", price: "€280/泊" },
+    hotel: { name: "パラドール・デ・グラナダ", stars: 5, description: "アルハンブラ宮殿内に位置する伝説のホテル", price: "€280/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=Parador+de+Granada" },
     food: [
       { dish: "ベレンヘーナス・コン・ミエル", dishEs: "Berenjenas con Miel", restaurant: "El Rinconcillo", description: "スペイン最古の酒場 — 揚げなすにはちみつをかけた名物料理" },
     ],
@@ -426,7 +427,7 @@ const ja: DayData[] = [
       { time: "15:30", title: "サン・ニコラス展望台で夕日を見る", titleEs: "Mirador de San Nicolás", description: "グラナダで最も美しい展望台 — 夕日に染まるアルハンブラは一生の記憶", duration: "2時間", icon: "🌅" },
       { time: "20:00", title: "洞窟フラメンコショー", titleEs: "Flamenco en Cuevas", description: "サクロモンテの洞窟地区 — 最も原始的なフラメンコを体験", duration: "2時間", icon: "💃" },
     ],
-    hotel: { name: "パラドール・デ・グラナダ", stars: 5, description: "2泊目、アルハンブラ宮殿内", price: "€280/泊" },
+    hotel: { name: "パラドール・デ・グラナダ", stars: 5, description: "2泊目、アルハンブラ宮殿内", price: "€280/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=Parador+de+Granada" },
     food: [
       { dish: "ポジョ・ア・ラ・モリスカ", dishEs: "Pollo a la Morisca", restaurant: "Restaurante Arrayanes", description: "サフランとドライフルーツを使ったムーア風チキン料理" },
       { dish: "タパス・グラナディーナス", dishEs: "Tapas Granadinas", restaurant: "Bar Los Diamantes", description: "グラナダならではの習慣：飲み物を頼むと無料タパスがついてくる" },
@@ -441,7 +442,7 @@ const ja: DayData[] = [
       { time: "14:00", title: "お土産ショッピング", titleEs: "Compras de Recuerdos", description: "陶器、革製品、サフラン、オリーブオイルなどを購入", duration: "1.5時間", icon: "🛍️" },
       { time: "17:00", title: "帰路へ", titleEs: "Regreso a Madrid", description: "バスで約5時間、またはマラガ経由のAVEで約2.5時間でマドリードへ", duration: "5時間", icon: "🚌" },
     ],
-    hotel: { name: "マドリード空港ヒルトン", stars: 4, description: "早朝フライトに便利な空港ホテル", price: "€100/泊" },
+    hotel: { name: "マドリード空港ヒルトン", stars: 4, description: "早朝フライトに便利な空港ホテル", price: "€100/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=Hilton+Madrid+Airport" },
     food: [
       { dish: "デサジューノ・グラナディーノ", dishEs: "Desayuno Granadino", restaurant: "Café Fútbol", description: "1891年創業の老舗カフェ — コーヒーと揚げパンで最後のスペイン朝食" },
     ],

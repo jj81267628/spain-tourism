@@ -25,6 +25,14 @@ export default function ItineraryLayout({ days, title, subtitle, season }: Props
     setActiveDay(index);
   }, []);
 
+  const scrollToDay = useCallback((index: number) => {
+    const el = document.querySelector(`[data-day="${index}"]`);
+    if (!el) return;
+    const offset = 160; // navbar (64px) + sticky bar (~56px) + animation y-offset (40px)
+    const top = el.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top, behavior: "smooth" });
+  }, []);
+
   const images = days.map((d) => d.imageUrl);
 
   return (
@@ -45,7 +53,7 @@ export default function ItineraryLayout({ days, title, subtitle, season }: Props
         {days.map((day, i) => (
           <button
             key={i}
-            onClick={() => setActiveDay(i)}
+            onClick={() => { setActiveDay(i); scrollToDay(i); }}
             className={`flex-shrink-0 flex items-center gap-1.5 px-3 py-1 rounded-full text-xs transition-all duration-300 ${
               i === activeDay ? "text-white font-semibold" : "text-white/40 hover:text-white/70"
             }`}

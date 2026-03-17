@@ -89,6 +89,17 @@ export default function DayPanel({ day, isActive, onVisible, dayIndex }: Props) 
         </div>
         <p className="text-white font-medium text-sm">{day.hotel.name}</p>
         <p className="text-white/50 text-xs mt-1">{day.hotel.description}</p>
+        {day.hotel.mapUrl && (
+          <a
+            href={day.hotel.mapUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 mt-2 text-xs text-blue-400 hover:text-blue-300 transition-colors"
+          >
+            <span>📍</span>
+            <span>Google Maps</span>
+          </a>
+        )}
       </div>
 
       {/* Food */}

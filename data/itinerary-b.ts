@@ -11,7 +11,7 @@ const zh: DayData[] = [
       { time: "16:00", title: "哥特区探索", titleEs: "Barrio Gótico", description: "2000年历史的古罗马城区，迷宫般的中世纪街道", duration: "2小时", icon: "🏰" },
       { time: "19:00", title: "博克利亚市场参观", titleEs: "Mercat de la Boqueria", description: "巴塞罗那最著名的市场，海鲜、水果、伊比利亚火腿琳琅满目", duration: "1小时", icon: "🦑" },
     ],
-    hotel: { name: "巴塞罗那W酒店", stars: 5, description: "帆船形建筑，海滨位置，无敌海景", price: "¥1,800/晚" },
+    hotel: { name: "巴塞罗那W酒店", stars: 5, description: "帆船形建筑，海滨位置，无敌海景", price: "¥1,800/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=W+Hotel+Barcelona" },
     food: [
       { dish: "海鲜饭", dishEs: "Paella de Mariscos", restaurant: "7 Portes", description: "1836年开业，巴塞罗那最古老的餐厅，正宗加泰罗尼亚海鲜饭" },
       { dish: "番茄面包", dishEs: "Pan con Tomate", restaurant: "Bar Marsella", description: "加泰罗尼亚最基本的美食，大蒜摩擦面包后涂番茄和橄榄油" },
@@ -26,7 +26,7 @@ const zh: DayData[] = [
       { time: "15:00", title: "巴特略之家", titleEs: "Casa Batlló", description: "最具视觉冲击力的高迪建筑，夜间灯光秀更为壮观", duration: "1.5小时", icon: "🦴" },
       { time: "18:00", title: "格拉西亚大道购物", titleEs: "Passeig de Gràcia", description: "巴塞罗那最豪华的林荫大道，奢侈品旗舰店和精品餐厅", duration: "2小时", icon: "🛍️" },
     ],
-    hotel: { name: "巴塞罗那W酒店", stars: 5, description: "连住第二晚", price: "¥1,800/晚" },
+    hotel: { name: "巴塞罗那W酒店", stars: 5, description: "连住第二晚", price: "¥1,800/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=W+Hotel+Barcelona" },
     food: [
       { dish: "加泰罗尼亚奶油布丁", dishEs: "Crema Catalana", restaurant: "Els Quatre Gats", description: "1897年开业，毕加索常客，加泰罗尼亚传统焦糖布丁" },
       { dish: "墨鱼饭", dishEs: "Arroz Negro", restaurant: "Barceloneta", description: "用墨鱼汁染黑的海鲜饭，配芝士蛋黄酱" },
@@ -41,7 +41,7 @@ const zh: DayData[] = [
       { time: "15:00", title: "巴塞罗那海滩", titleEs: "Playa de Barceloneta", description: "地中海沙滩，九月水温宜人，可游泳", duration: "2小时", icon: "🏖️" },
       { time: "19:00", title: "厄尔博恩区酒吧街", titleEs: "El Born", description: "时髦的波西米亚区，精品店、画廊和鸡尾酒吧", duration: "2小时", icon: "🍸" },
     ],
-    hotel: { name: "巴塞罗那W酒店", stars: 5, description: "连住第三晚", price: "¥1,800/晚" },
+    hotel: { name: "巴塞罗那W酒店", stars: 5, description: "连住第三晚", price: "¥1,800/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=W+Hotel+Barcelona" },
     food: [
       { dish: "烤蔬菜拼盘", dishEs: "Escalivada", restaurant: "Bodega Sepúlveda", description: "加泰罗尼亚传统烤茄子、辣椒，淋橄榄油" },
     ],
@@ -55,7 +55,7 @@ const zh: DayData[] = [
       { time: "15:00", title: "艺术科学城", titleEs: "Ciudad de las Artes y las Ciencias", description: "卡拉特拉瓦设计的未来主义建筑群，科学博物馆、海洋馆、歌剧院", duration: "3小时", icon: "🔬" },
       { time: "19:30", title: "旧城区塔帕斯巡礼", titleEs: "Tapeo por el Centro", description: "骑士街一带的传统酒吧，正宗瓦伦西亚小吃", duration: "2小时", icon: "🍺" },
     ],
-    hotel: { name: "瓦伦西亚唯美酒店", stars: 5, description: "位于艺术科学城旁，设计感十足", price: "¥1,100/晚" },
+    hotel: { name: "瓦伦西亚唯美酒店", stars: 5, description: "位于艺术科学城旁，设计感十足", price: "¥1,100/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=Westin+Valencia" },
     food: [
       { dish: "正宗瓦伦西亚海鲜饭", dishEs: "Paella Valenciana", restaurant: "Restaurante Levante", description: "海鲜饭发源地，传统配方含兔肉、鸡肉和四季豆" },
       { dish: "油炸糕", dishEs: "Buñuelos con Chocolate", restaurant: "Horchatería Santa Catalina", description: "瓦伦西亚特色油炸糕配热巧克力" },
@@ -70,7 +70,7 @@ const zh: DayData[] = [
       { time: "13:00", title: "图里亚花园骑行", titleEs: "Jardín del Turia", description: "由干涸河床改建的9公里城市公园，租自行车游览", duration: "2小时", icon: "🚲" },
       { time: "16:00", title: "前往瓦伦西亚港口机场", titleEs: "Aeropuerto de Valencia", description: "飞往伊维萨岛，约1小时航程", duration: "3小时", icon: "✈️" },
     ],
-    hotel: { name: "伊维萨岛格兰德酒店", stars: 5, description: "蓬嫩岛湾海滨酒店，私人沙滩", price: "¥2,500/晚" },
+    hotel: { name: "伊维萨岛格兰德酒店", stars: 5, description: "蓬嫩岛湾海滨酒店，私人沙滩", price: "¥2,500/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=Grand+Hotel+Ibiza" },
     food: [
       { dish: "虎奶", dishEs: "Horchata de Chufa", restaurant: "Horchatería Daniel", description: "瓦伦西亚特色虎坚果奶饮，配长条油炸面团" },
     ],
@@ -84,7 +84,7 @@ const zh: DayData[] = [
       { time: "17:00", title: "圣安东尼观夕阳", titleEs: "Puesta de Sol en San Antonio", description: "伊维萨最著名的夕阳观赏地，咖啡馆里看日落是必做体验", duration: "2小时", icon: "🌅" },
       { time: "22:00", title: "夜生活体验", titleEs: "Vida Nocturna", description: "伊维萨全球最著名夜店区（可选），或酒店休息", duration: "2小时", icon: "🎵" },
     ],
-    hotel: { name: "伊维萨岛格兰德酒店", stars: 5, description: "连住第二晚", price: "¥2,500/晚" },
+    hotel: { name: "伊维萨岛格兰德酒店", stars: 5, description: "连住第二晚", price: "¥2,500/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=Grand+Hotel+Ibiza" },
     food: [
       { dish: "伊维萨龙虾炖", dishEs: "Bullit de Peix", restaurant: "Can Pilot", description: "伊维萨传统渔民菜肴，海鲜炖饭" },
       { dish: "软奶酪", dishEs: "Queso de Ibiza", restaurant: "Mercat Vell", description: "伊维萨特产绵羊奶酪，配本地橄榄" },
@@ -99,7 +99,7 @@ const zh: DayData[] = [
       { time: "15:00", title: "贝利韦尔城堡", titleEs: "Castillo de Bellver", description: "唯一圆形哥特式城堡，俯瞰帕尔马湾全景", duration: "1.5小时", icon: "🏰" },
       { time: "17:30", title: "西北海岸风景大道驾车", titleEs: "Carretera Serra de Tramuntana", description: "UNESCO自然遗产山脉，蜿蜒海岸公路，壮观悬崖景色", duration: "2小时", icon: "🚗" },
     ],
-    hotel: { name: "马略卡岛索尔梅利亚酒店", stars: 4, description: "帕尔马湾海滨，私人海滩", price: "¥1,200/晚" },
+    hotel: { name: "马略卡岛索尔梅利亚酒店", stars: 4, description: "帕尔马湾海滨，私人海滩", price: "¥1,200/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=Sol+Melia+Mallorca+Palma" },
     food: [
       { dish: "马略卡炸肉饼", dishEs: "Frit Mallorquí", restaurant: "Celler Sa Premsa", description: "马略卡传统菜，内脏和蔬菜的独特组合" },
       { dish: "皮条饼", dishEs: "Ensaïmada", restaurant: "Forn des Teatre", description: "马略卡标志性甜点，螺旋形酥皮糕点" },
@@ -114,7 +114,7 @@ const zh: DayData[] = [
       { time: "16:30", title: "索勒小镇", titleEs: "Sóller", description: "乘坐百年历史的木质火车，穿越橘子园到达山中小镇", duration: "2小时", icon: "🚂" },
       { time: "20:00", title: "帕尔马夜间美食之旅", titleEs: "Gastronomía Nocturna", description: "品尝马略卡特色葡萄酒和精致海鲜料理", duration: "2小时", icon: "🍷" },
     ],
-    hotel: { name: "马略卡岛索尔梅利亚酒店", stars: 4, description: "连住第二晚", price: "¥1,200/晚" },
+    hotel: { name: "马略卡岛索尔梅利亚酒店", stars: 4, description: "连住第二晚", price: "¥1,200/晚", mapUrl: "https://www.google.com/maps/search/?api=1&query=Sol+Melia+Mallorca+Palma" },
     food: [
       { dish: "马略卡烤羊", dishEs: "Cordero Mallorquín", restaurant: "Es Molí d'en Bou", description: "地中海风味烤羊，配本地香草和橄榄油" },
       { dish: "索布拉萨达香肠", dishEs: "Sobrassada", restaurant: "Mercat de l'Olivar", description: "马略卡特色红椒猪肉香肠，涂面包食用" },
@@ -145,7 +145,7 @@ const en: DayData[] = [
       { time: "16:00", title: "Gothic Quarter", titleEs: "Barrio Gótico", description: "2,000-year-old Roman district with labyrinthine medieval streets", duration: "2 hrs", icon: "🏰" },
       { time: "19:00", title: "La Boqueria Market", titleEs: "Mercat de la Boqueria", description: "Barcelona's most famous market — overflowing with seafood, fruit and Iberian ham", duration: "1 hr", icon: "🦑" },
     ],
-    hotel: { name: "W Barcelona", stars: 5, description: "Iconic sail-shaped building on the seafront with unbeatable ocean views", price: "€225/night" },
+    hotel: { name: "W Barcelona", stars: 5, description: "Iconic sail-shaped building on the seafront with unbeatable ocean views", price: "€225/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=W+Hotel+Barcelona" },
     food: [
       { dish: "Seafood Paella", dishEs: "Paella de Mariscos", restaurant: "7 Portes", description: "Opened in 1836 — Barcelona's oldest restaurant and home to authentic Catalan paella" },
       { dish: "Pan con Tomate", dishEs: "Pan con Tomate", restaurant: "Bar Marsella", description: "Catalan staple — bread rubbed with garlic, spread with tomato and olive oil" },
@@ -160,7 +160,7 @@ const en: DayData[] = [
       { time: "15:00", title: "Casa Batlló", titleEs: "Casa Batlló", description: "Gaudí's most visually striking building — even more spectacular during the night light show", duration: "1.5 hrs", icon: "🦴" },
       { time: "18:00", title: "Passeig de Gràcia Shopping", titleEs: "Passeig de Gràcia", description: "Barcelona's most luxurious boulevard — luxury flagships and gourmet restaurants", duration: "2 hrs", icon: "🛍️" },
     ],
-    hotel: { name: "W Barcelona", stars: 5, description: "Second night", price: "€225/night" },
+    hotel: { name: "W Barcelona", stars: 5, description: "Second night", price: "€225/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=W+Hotel+Barcelona" },
     food: [
       { dish: "Crema Catalana", dishEs: "Crema Catalana", restaurant: "Els Quatre Gats", description: "Opened 1897, a favourite of Picasso — classic Catalan burnt cream dessert" },
       { dish: "Arroz Negro", dishEs: "Arroz Negro", restaurant: "Barceloneta", description: "Squid-ink seafood rice served with alioli" },
@@ -175,7 +175,7 @@ const en: DayData[] = [
       { time: "15:00", title: "Barceloneta Beach", titleEs: "Playa de Barceloneta", description: "Mediterranean beach — September water temperatures are perfect for swimming", duration: "2 hrs", icon: "🏖️" },
       { time: "19:00", title: "El Born Bar Crawl", titleEs: "El Born", description: "Trendy bohemian district — boutiques, galleries and cocktail bars", duration: "2 hrs", icon: "🍸" },
     ],
-    hotel: { name: "W Barcelona", stars: 5, description: "Third night", price: "€225/night" },
+    hotel: { name: "W Barcelona", stars: 5, description: "Third night", price: "€225/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=W+Hotel+Barcelona" },
     food: [
       { dish: "Escalivada", dishEs: "Escalivada", restaurant: "Bodega Sepúlveda", description: "Traditional Catalan roasted aubergine and peppers drizzled with olive oil" },
     ],
@@ -189,7 +189,7 @@ const en: DayData[] = [
       { time: "15:00", title: "City of Arts and Sciences", titleEs: "Ciudad de las Artes y las Ciencias", description: "Calatrava's futurist complex — science museum, oceanarium and opera house", duration: "3 hrs", icon: "🔬" },
       { time: "19:30", title: "Tapas Tour of the Old City", titleEs: "Tapeo por el Centro", description: "Traditional bars around Calle Caballeros — authentic Valencian small bites", duration: "2 hrs", icon: "🍺" },
     ],
-    hotel: { name: "The Westin Valencia", stars: 5, description: "Adjacent to the City of Arts and Sciences — design-forward luxury", price: "€135/night" },
+    hotel: { name: "The Westin Valencia", stars: 5, description: "Adjacent to the City of Arts and Sciences — design-forward luxury", price: "€135/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=Westin+Valencia" },
     food: [
       { dish: "Paella Valenciana", dishEs: "Paella Valenciana", restaurant: "Restaurante Levante", description: "The birthplace of paella — traditional recipe with rabbit, chicken and green beans" },
       { dish: "Buñuelos con Chocolate", dishEs: "Buñuelos con Chocolate", restaurant: "Horchatería Santa Catalina", description: "Valencian fried dough fritters with hot chocolate" },
@@ -204,7 +204,7 @@ const en: DayData[] = [
       { time: "13:00", title: "Turia Gardens Bike Ride", titleEs: "Jardín del Turia", description: "9 km urban park created from a former riverbed — rent a bike and explore", duration: "2 hrs", icon: "🚲" },
       { time: "16:00", title: "Fly to Ibiza", titleEs: "Aeropuerto de Valencia", description: "~1 hour flight from Valencia Airport", duration: "3 hrs", icon: "✈️" },
     ],
-    hotel: { name: "Grand Hotel Ibiza", stars: 5, description: "Beachfront hotel on Poniente Bay with private beach", price: "€310/night" },
+    hotel: { name: "Grand Hotel Ibiza", stars: 5, description: "Beachfront hotel on Poniente Bay with private beach", price: "€310/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=Grand+Hotel+Ibiza" },
     food: [
       { dish: "Horchata de Chufa", dishEs: "Horchata de Chufa", restaurant: "Horchatería Daniel", description: "Valencia's unique tiger nut milk drink served with fartons (long pastry sticks)" },
     ],
@@ -218,7 +218,7 @@ const en: DayData[] = [
       { time: "17:00", title: "Sunset at San Antonio", titleEs: "Puesta de Sol en San Antonio", description: "Ibiza's most famous sunset viewpoint — watching the sun dip into the sea from a café is a must-do", duration: "2 hrs", icon: "🌅" },
       { time: "22:00", title: "Nightlife (optional)", titleEs: "Vida Nocturna", description: "World-famous Ibiza club scene (optional), or relax at the hotel", duration: "2 hrs", icon: "🎵" },
     ],
-    hotel: { name: "Grand Hotel Ibiza", stars: 5, description: "Second night", price: "€310/night" },
+    hotel: { name: "Grand Hotel Ibiza", stars: 5, description: "Second night", price: "€310/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=Grand+Hotel+Ibiza" },
     food: [
       { dish: "Bullit de Peix", dishEs: "Bullit de Peix", restaurant: "Can Pilot", description: "Traditional Ibizan fisherman's stew with fresh catch and rice" },
       { dish: "Queso de Ibiza", dishEs: "Queso de Ibiza", restaurant: "Mercat Vell", description: "Local sheep's milk cheese served with island olives" },
@@ -233,7 +233,7 @@ const en: DayData[] = [
       { time: "15:00", title: "Bellver Castle", titleEs: "Castillo de Bellver", description: "The only circular Gothic castle in the world, overlooking the Bay of Palma", duration: "1.5 hrs", icon: "🏰" },
       { time: "17:30", title: "Serra de Tramuntana Coastal Drive", titleEs: "Carretera Serra de Tramuntana", description: "UNESCO World Heritage mountain range — dramatic coastal road with spectacular cliffs", duration: "2 hrs", icon: "🚗" },
     ],
-    hotel: { name: "Sol Meliá Mallorca", stars: 4, description: "Beachfront on the Bay of Palma with private beach", price: "€150/night" },
+    hotel: { name: "Sol Meliá Mallorca", stars: 4, description: "Beachfront on the Bay of Palma with private beach", price: "€150/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=Sol+Melia+Mallorca+Palma" },
     food: [
       { dish: "Frit Mallorquí", dishEs: "Frit Mallorquí", restaurant: "Celler Sa Premsa", description: "Traditional Mallorcan dish — offal and vegetables in a unique combination" },
       { dish: "Ensaïmada", dishEs: "Ensaïmada", restaurant: "Forn des Teatre", description: "Mallorca's iconic pastry — light spiral-shaped bun dusted with icing sugar" },
@@ -248,7 +248,7 @@ const en: DayData[] = [
       { time: "16:30", title: "Sóller Village", titleEs: "Sóller", description: "Ride the century-old wooden train through orange groves to this charming mountain town", duration: "2 hrs", icon: "🚂" },
       { time: "20:00", title: "Palma Gastronomic Evening", titleEs: "Gastronomía Nocturna", description: "Enjoy Mallorcan wines and refined seafood dishes in the old city", duration: "2 hrs", icon: "🍷" },
     ],
-    hotel: { name: "Sol Meliá Mallorca", stars: 4, description: "Second night", price: "€150/night" },
+    hotel: { name: "Sol Meliá Mallorca", stars: 4, description: "Second night", price: "€150/night", mapUrl: "https://www.google.com/maps/search/?api=1&query=Sol+Melia+Mallorca+Palma" },
     food: [
       { dish: "Cordero Mallorquín", dishEs: "Cordero Mallorquín", restaurant: "Es Molí d'en Bou", description: "Mediterranean-style roast lamb with local herbs and olive oil" },
       { dish: "Sobrassada", dishEs: "Sobrassada", restaurant: "Mercat de l'Olivar", description: "Mallorca's signature cured red pepper sausage — spread on warm bread" },
@@ -279,7 +279,7 @@ const ja: DayData[] = [
       { time: "16:00", title: "ゴシック地区探索", titleEs: "Barrio Gótico", description: "2,000年の歴史を持つローマ時代の城郭都市 — 迷宮のような中世の街並み", duration: "2時間", icon: "🏰" },
       { time: "19:00", title: "ボケリア市場見学", titleEs: "Mercat de la Boqueria", description: "バルセロナ最有名の市場 — 新鮮な魚介類、フルーツ、イベリコハムが並ぶ", duration: "1時間", icon: "🦑" },
     ],
-    hotel: { name: "Wバルセロナ", stars: 5, description: "帆船型の象徴的な建物、海沿いのロケーションで絶景の海景色", price: "€225/泊" },
+    hotel: { name: "Wバルセロナ", stars: 5, description: "帆船型の象徴的な建物、海沿いのロケーションで絶景の海景色", price: "€225/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=W+Hotel+Barcelona" },
     food: [
       { dish: "シーフード・パエリア", dishEs: "Paella de Mariscos", restaurant: "7 Portes", description: "1836年創業、バルセロナ最古のレストラン — 本場カタルーニャ・パエリア" },
       { dish: "パン・コン・トマテ", dishEs: "Pan con Tomate", restaurant: "Bar Marsella", description: "カタルーニャの基本料理 — ニンニクをこすりつけたパンにトマトとオリーブオイル" },
@@ -294,7 +294,7 @@ const ja: DayData[] = [
       { time: "15:00", title: "カサ・バトリョ", titleEs: "Casa Batlló", description: "ガウディ最もインパクトのある建築 — 夜のライトアップはさらに圧巻", duration: "1.5時間", icon: "🦴" },
       { time: "18:00", title: "パセイ・デ・グラシアでショッピング", titleEs: "Passeig de Gràcia", description: "バルセロナ最豪華な並木道 — ラグジュアリーブランドのフラッグシップとグルメレストラン", duration: "2時間", icon: "🛍️" },
     ],
-    hotel: { name: "Wバルセロナ", stars: 5, description: "2泊目", price: "€225/泊" },
+    hotel: { name: "Wバルセロナ", stars: 5, description: "2泊目", price: "€225/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=W+Hotel+Barcelona" },
     food: [
       { dish: "クレマ・カタラーナ", dishEs: "Crema Catalana", restaurant: "Els Quatre Gats", description: "1897年創業、ピカソの行きつけ — カタルーニャ伝統のクレームブリュレ" },
       { dish: "アロス・ネグロ", dishEs: "Arroz Negro", restaurant: "Barceloneta", description: "イカ墨で黒く染めたシーフードライス、アリオリ添え" },
@@ -309,7 +309,7 @@ const ja: DayData[] = [
       { time: "15:00", title: "バルセロネータビーチ", titleEs: "Playa de Barceloneta", description: "地中海のビーチ — 9月の水温は水泳に最適", duration: "2時間", icon: "🏖️" },
       { time: "19:00", title: "エル・ボルン地区", titleEs: "El Born", description: "おしゃれなボヘミアン地区 — ブティック、ギャラリー、カクテルバー", duration: "2時間", icon: "🍸" },
     ],
-    hotel: { name: "Wバルセロナ", stars: 5, description: "3泊目", price: "€225/泊" },
+    hotel: { name: "Wバルセロナ", stars: 5, description: "3泊目", price: "€225/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=W+Hotel+Barcelona" },
     food: [
       { dish: "エスカリバーダ", dishEs: "Escalivada", restaurant: "Bodega Sepúlveda", description: "カタルーニャの伝統的な焼きナスとパプリカ、オリーブオイルがけ" },
     ],
@@ -323,7 +323,7 @@ const ja: DayData[] = [
       { time: "15:00", title: "芸術科学都市", titleEs: "Ciudad de las Artes y las Ciencias", description: "カラトラバ設計の未来派複合施設 — 科学博物館、海洋館、オペラハウス", duration: "3時間", icon: "🔬" },
       { time: "19:30", title: "旧市街タパスツアー", titleEs: "Tapeo por el Centro", description: "カバジェロス通り界隈の伝統的なバー — 本場バレンシアのタパス", duration: "2時間", icon: "🍺" },
     ],
-    hotel: { name: "ウェスティン・バレンシア", stars: 5, description: "芸術科学都市に隣接するデザインホテル", price: "€135/泊" },
+    hotel: { name: "ウェスティン・バレンシア", stars: 5, description: "芸術科学都市に隣接するデザインホテル", price: "€135/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=Westin+Valencia" },
     food: [
       { dish: "パエリア・バレンシアーナ", dishEs: "Paella Valenciana", restaurant: "Restaurante Levante", description: "パエリア発祥の地 — うさぎ肉、鶏肉、さやいんげん入りの伝統レシピ" },
       { dish: "ブニュエロス・コン・チョコラテ", dishEs: "Buñuelos con Chocolate", restaurant: "Horchatería Santa Catalina", description: "バレンシアの揚げ菓子とホットチョコレート" },
@@ -338,7 +338,7 @@ const ja: DayData[] = [
       { time: "13:00", title: "トゥリア庭園でサイクリング", titleEs: "Jardín del Turia", description: "廃川跡を改造した9kmの都市公園 — レンタサイクルで巡る", duration: "2時間", icon: "🚲" },
       { time: "16:00", title: "イビサ島へフライト", titleEs: "Aeropuerto de Valencia", description: "バレンシア空港から約1時間のフライト", duration: "3時間", icon: "✈️" },
     ],
-    hotel: { name: "グランドホテル・イビサ", stars: 5, description: "ポニエンテ湾のビーチフロントホテル、プライベートビーチ付き", price: "€310/泊" },
+    hotel: { name: "グランドホテル・イビサ", stars: 5, description: "ポニエンテ湾のビーチフロントホテル、プライベートビーチ付き", price: "€310/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=Grand+Hotel+Ibiza" },
     food: [
       { dish: "オルチャタ・デ・チュファ", dishEs: "Horchata de Chufa", restaurant: "Horchatería Daniel", description: "バレンシア独自のトラの実ミルク飲料、ファルトン（長い揚げパン）と一緒に" },
     ],
@@ -352,7 +352,7 @@ const ja: DayData[] = [
       { time: "17:00", title: "サン・アントニオで夕日鑑賞", titleEs: "Puesta de Sol en San Antonio", description: "イビサで最も有名な夕日スポット — カフェで日没を眺めるのは必体験", duration: "2時間", icon: "🌅" },
       { time: "22:00", title: "ナイトライフ（任意）", titleEs: "Vida Nocturna", description: "世界的に有名なイビサのクラブシーン（任意）、またはホテルでのんびり", duration: "2時間", icon: "🎵" },
     ],
-    hotel: { name: "グランドホテル・イビサ", stars: 5, description: "2泊目", price: "€310/泊" },
+    hotel: { name: "グランドホテル・イビサ", stars: 5, description: "2泊目", price: "€310/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=Grand+Hotel+Ibiza" },
     food: [
       { dish: "ブリット・デ・ペイシュ", dishEs: "Bullit de Peix", restaurant: "Can Pilot", description: "伝統的なイビサの漁師料理 — 新鮮な魚介のシチューとライス" },
       { dish: "ケソ・デ・イビサ", dishEs: "Queso de Ibiza", restaurant: "Mercat Vell", description: "地元産の羊乳チーズ、島のオリーブを添えて" },
@@ -367,7 +367,7 @@ const ja: DayData[] = [
       { time: "15:00", title: "ベリベル城", titleEs: "Castillo de Bellver", description: "世界唯一の円形ゴシック城、パルマ湾全景を望む", duration: "1.5時間", icon: "🏰" },
       { time: "17:30", title: "トラムンタナ山脈海岸ドライブ", titleEs: "Carretera Serra de Tramuntana", description: "ユネスコ自然遺産の山岳地帯 — 壮大な断崖を望む蛇行する海岸道路", duration: "2時間", icon: "🚗" },
     ],
-    hotel: { name: "ソル・メリア・マジョルカ", stars: 4, description: "パルマ湾の海辺、プライベートビーチ付き", price: "€150/泊" },
+    hotel: { name: "ソル・メリア・マジョルカ", stars: 4, description: "パルマ湾の海辺、プライベートビーチ付き", price: "€150/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=Sol+Melia+Mallorca+Palma" },
     food: [
       { dish: "フリット・マジョルキ", dishEs: "Frit Mallorquí", restaurant: "Celler Sa Premsa", description: "マジョルカの伝統料理 — 内臓と野菜を組み合わせた独特の一品" },
       { dish: "エンサイマダ", dishEs: "Ensaïmada", restaurant: "Forn des Teatre", description: "マジョルカの象徴的な菓子パン — 軽くてふわふわの渦巻き型、粉砂糖をまぶして" },
@@ -382,7 +382,7 @@ const ja: DayData[] = [
       { time: "16:30", title: "ソイェル村", titleEs: "Sóller", description: "百年の歴史を持つ木造列車でオレンジ畑を抜けて山間の小さな村へ", duration: "2時間", icon: "🚂" },
       { time: "20:00", title: "パルマのグルメの夜", titleEs: "Gastronomía Nocturna", description: "マジョルカのワインと洗練されたシーフード料理を旧市街で堪能", duration: "2時間", icon: "🍷" },
     ],
-    hotel: { name: "ソル・メリア・マジョルカ", stars: 4, description: "2泊目", price: "€150/泊" },
+    hotel: { name: "ソル・メリア・マジョルカ", stars: 4, description: "2泊目", price: "€150/泊", mapUrl: "https://www.google.com/maps/search/?api=1&query=Sol+Melia+Mallorca+Palma" },
     food: [
       { dish: "コルデロ・マジョルキン", dishEs: "Cordero Mallorquín", restaurant: "Es Molí d'en Bou", description: "地中海風ローストラム、地元ハーブとオリーブオイル添え" },
       { dish: "ソブラサーダ", dishEs: "Sobrassada", restaurant: "Mercat de l'Olivar", description: "マジョルカ特産の赤パプリカ豚肉ソーセージ — パンに塗って食べる" },
