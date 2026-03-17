@@ -53,7 +53,7 @@ const zh: DayData[] = [
   },
   {
     day: 2, date: "5月2日", city: "马德里", cityEs: "Madrid", region: "普拉多博物馆日",
-    coords: [40.4137, -3.6922], imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80", color: "#8b1a1a",
+    coords: [40.4137, -3.6922], imageUrl: "https://images.pexels.com/photos/36289632/pexels-photo-36289632.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#8b1a1a",
     activities: [
       { time: "09:00", title: "普拉多国家博物馆", titleEs: "Museo del Prado", description: "世界顶级艺术博物馆，收藏委拉斯开兹《宫女》、戈雅《裸体玛哈》等杰作，建议参观3小时", duration: "3小时", icon: "🎨" },
       { time: "13:00", title: "午餐 - 雷蒂罗公园附近", titleEs: "Parque del Retiro", description: "在公园旁餐厅用餐后漫步公园，水晶宫打卡", duration: "2.5小时", icon: "🌿" },
@@ -191,7 +191,7 @@ const en: DayData[] = [
   },
   {
     day: 2, date: "May 2", city: "Madrid", cityEs: "Madrid", region: "Museum Day",
-    coords: [40.4137, -3.6922], imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80", color: "#8b1a1a",
+    coords: [40.4137, -3.6922], imageUrl: "https://images.pexels.com/photos/36289632/pexels-photo-36289632.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#8b1a1a",
     activities: [
       { time: "09:00", title: "Prado National Museum", titleEs: "Museo del Prado", description: "World-class art museum — Velázquez's Las Meninas, Goya's masterworks. Allow at least 3 hours", duration: "3 hrs", icon: "🎨" },
       { time: "13:00", title: "Lunch near Retiro Park", titleEs: "Parque del Retiro", description: "Dine by the park then stroll through it and visit the Crystal Palace", duration: "2.5 hrs", icon: "🌿" },
@@ -329,7 +329,7 @@ const ja: DayData[] = [
   },
   {
     day: 2, date: "5月2日", city: "マドリード", cityEs: "Madrid", region: "美術館の日",
-    coords: [40.4137, -3.6922], imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80", color: "#8b1a1a",
+    coords: [40.4137, -3.6922], imageUrl: "https://images.pexels.com/photos/36289632/pexels-photo-36289632.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#8b1a1a",
     activities: [
       { time: "09:00", title: "プラド国立美術館", titleEs: "Museo del Prado", description: "ベラスケスの「ラス・メニーナス」、ゴヤの傑作を収蔵する世界最高峰の美術館。3時間は確保を", duration: "3時間", icon: "🎨" },
       { time: "13:00", title: "レティーロ公園でランチ", titleEs: "Parque del Retiro", description: "公園のそばでランチ後、散策とクリスタル・パレスへ", duration: "2.5時間", icon: "🌿" },

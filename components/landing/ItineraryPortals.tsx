@@ -4,8 +4,8 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
 const portalImages = [
-  "https://images.unsplash.com/photo-1512699355324-f07e3106dae5?w=1200&q=80",
-  "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80",
+  "https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=1200&q=80",
+  "https://images.unsplash.com/photo-1569959220744-ff553533f492?w=1200&q=80",
 ];
 const portalColors = ["#c60b1e", "#003087"];
 const portalBadges = ["🌸", "🌊"];

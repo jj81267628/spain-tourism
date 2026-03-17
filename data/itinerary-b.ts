@@ -19,7 +19,7 @@ const zh: DayData[] = [
   },
   {
     day: 2, date: "9月16日", city: "巴塞罗那", cityEs: "Barcelona", region: "高迪建筑日",
-    coords: [41.4036, 2.1744], imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80", color: "#8B1A1A",
+    coords: [41.4036, 2.1744], imageUrl: "https://images.pexels.com/photos/6516369/pexels-photo-6516369.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#8B1A1A",
     activities: [
       { time: "09:00", title: "圣家堂", titleEs: "Sagrada Família", description: "高迪毕生之作，1882年至今仍在建造，预计2026年完工。提前网上购票！", duration: "2.5小时", icon: "⛪" },
       { time: "12:30", title: "米拉之家", titleEs: "Casa Milà (La Pedrera)", description: "高迪设计的波浪形公寓楼，屋顶勇士雕塑是标志，内部开放参观", duration: "1.5小时", icon: "🏗️" },
@@ -153,7 +153,7 @@ const en: DayData[] = [
   },
   {
     day: 2, date: "Sep 16", city: "Barcelona", cityEs: "Barcelona", region: "Gaudí Architecture Day",
-    coords: [41.4036, 2.1744], imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80", color: "#8B1A1A",
+    coords: [41.4036, 2.1744], imageUrl: "https://images.pexels.com/photos/6516369/pexels-photo-6516369.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#8B1A1A",
     activities: [
       { time: "09:00", title: "Sagrada Família", titleEs: "Sagrada Família", description: "Gaudí's life's work, under construction since 1882 with completion expected in 2026. Book online in advance!", duration: "2.5 hrs", icon: "⛪" },
       { time: "12:30", title: "Casa Milà (La Pedrera)", titleEs: "Casa Milà (La Pedrera)", description: "Gaudí's wave-like apartment building with iconic rooftop warrior sculptures — open for tours inside", duration: "1.5 hrs", icon: "🏗️" },
@@ -287,7 +287,7 @@ const ja: DayData[] = [
   },
   {
     day: 2, date: "9月16日", city: "バルセロナ", cityEs: "Barcelona", region: "ガウディ建築の日",
-    coords: [41.4036, 2.1744], imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80", color: "#8B1A1A",
+    coords: [41.4036, 2.1744], imageUrl: "https://images.pexels.com/photos/6516369/pexels-photo-6516369.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#8B1A1A",
     activities: [
       { time: "09:00", title: "サグラダ・ファミリア", titleEs: "Sagrada Família", description: "ガウディの生涯の傑作。1882年から建設中で2026年完成予定。オンラインで事前購入を！", duration: "2.5時間", icon: "⛪" },
       { time: "12:30", title: "カサ・ミラ（ラ・ペドレラ）", titleEs: "Casa Milà (La Pedrera)", description: "ガウディ設計の波打つアパート — 屋上の戦士像が有名。内部も見学可能", duration: "1.5時間", icon: "🏗️" },

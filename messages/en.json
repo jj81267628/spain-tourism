@@ -42,6 +42,18 @@
       {
         "title": "Alhambra",
         "description": "The Moorish palace masterpiece, with breathtaking arabesque decoration and serene water gardens."
+      },
+      {
+        "title": "Gran Vía",
+        "description": "Madrid's Broadway — spectacular early-20th-century architecture, theatres and boutique shopping. The Metropolis Building is its iconic centrepiece."
+      },
+      {
+        "title": "Barcelona Skyline",
+        "description": "The Mediterranean city at golden hour — the Columbus Monument and Barceloneta beach bathed in sunset light, with the Agbar Tower on the horizon."
+      },
+      {
+        "title": "Mediterranean Coast",
+        "description": "The crystalline coves of Ibiza and Mallorca — limestone cliffs plunging into turquoise waters, the very essence of Spain's Mediterranean beauty."
       }
     ]
   },
