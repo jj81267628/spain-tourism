@@ -44,14 +44,15 @@ export default function CultureSection() {
   }
 
   const handleMobileDragEnd = useCallback(() => {
-    let x = mobileX.get();
-    // Wrap: if past the third set, jump to middle; if before first set, jump to middle
+    const x = mobileX.get();
+    // Scrolled past the end (third set) → jump back to middle
     if (x < -setWidth * 2) {
       mobileX.set(x + setWidth);
-    } else if (x > -setWidth + cardUnit) {
+    // Scrolled past the start (first set) → jump forward to middle
+    } else if (x > 0) {
       mobileX.set(x - setWidth);
     }
-  }, [mobileX, setWidth, cardUnit]);
+  }, [mobileX, setWidth]);
 
   const CardItem = ({ card, i }: { card: { title: string; description: string }; i: number }) => (
     <motion.div
@@ -116,7 +117,7 @@ export default function CultureSection() {
           style={{ x: mobileX, width: "max-content" }}
           drag="x"
           dragElastic={0.15}
-          dragConstraints={{ left: -setWidth * 3, right: 0 }}
+          dragConstraints={{ left: -setWidth * 3, right: setWidth }}
           onDragEnd={handleMobileDragEnd}
           animate={mobileControls}
         >
