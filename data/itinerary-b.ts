@@ -92,7 +92,7 @@ const zh: DayData[] = [
   },
   {
     day: 7, date: "9月21日", city: "马略卡岛", cityEs: "Mallorca", region: "地中海明珠",
-    coords: [39.5696, 2.6502], imageUrl: "https://images.unsplash.com/photo-1558618047-f4e20e5e28d4?w=1920&q=80", color: "#00A693",
+    coords: [39.5696, 2.6502], imageUrl: "https://images.pexels.com/photos/5074833/pexels-photo-5074833.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#00A693",
     activities: [
       { time: "09:00", title: "乘渡轮前往马略卡", titleEs: "Ferry a Mallorca", description: "伊维萨到马略卡约2.5小时渡轮，欣赏地中海风光", duration: "2.5小时", icon: "⛴️" },
       { time: "12:30", title: "帕尔马大教堂", titleEs: "Catedral de Palma", description: "海边哥特式大教堂，高迪参与修缮，内有彩色玫瑰窗", duration: "1.5小时", icon: "⛪" },
@@ -226,7 +226,7 @@ const en: DayData[] = [
   },
   {
     day: 7, date: "Sep 21", city: "Mallorca", cityEs: "Mallorca", region: "Pearl of the Mediterranean",
-    coords: [39.5696, 2.6502], imageUrl: "https://images.unsplash.com/photo-1558618047-f4e20e5e28d4?w=1920&q=80", color: "#00A693",
+    coords: [39.5696, 2.6502], imageUrl: "https://images.pexels.com/photos/5074833/pexels-photo-5074833.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#00A693",
     activities: [
       { time: "09:00", title: "Ferry to Mallorca", titleEs: "Ferry a Mallorca", description: "~2.5 hr ferry from Ibiza — enjoy the Mediterranean scenery", duration: "2.5 hrs", icon: "⛴️" },
       { time: "12:30", title: "Palma Cathedral", titleEs: "Catedral de Palma", description: "Gothic cathedral by the sea — Gaudí contributed to its restoration. Stunning rose window inside", duration: "1.5 hrs", icon: "⛪" },
@@ -360,7 +360,7 @@ const ja: DayData[] = [
   },
   {
     day: 7, date: "9月21日", city: "マジョルカ島", cityEs: "Mallorca", region: "地中海の真珠",
-    coords: [39.5696, 2.6502], imageUrl: "https://images.unsplash.com/photo-1558618047-f4e20e5e28d4?w=1920&q=80", color: "#00A693",
+    coords: [39.5696, 2.6502], imageUrl: "https://images.pexels.com/photos/5074833/pexels-photo-5074833.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#00A693",
     activities: [
       { time: "09:00", title: "マジョルカ島へフェリー", titleEs: "Ferry a Mallorca", description: "イビサからマジョルカへ約2.5時間のフェリー、地中海の景色を楽しむ", duration: "2.5時間", icon: "⛴️" },
       { time: "12:30", title: "パルマ大聖堂", titleEs: "Catedral de Palma", description: "海辺のゴシック大聖堂 — ガウディも修復に関与。美しいバラ窓", duration: "1.5時間", icon: "⛪" },

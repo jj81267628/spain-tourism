@@ -62,6 +62,11 @@ export default function HeroSection() {
               {t("autumn")}
             </button>
           </Link>
+          <Link href="/food-culture" className="flex-1 min-w-[180px]">
+            <button className="w-full px-8 py-4 rounded-full border-2 border-spain-red/70 text-white font-semibold tracking-wide whitespace-nowrap transition-all duration-300 hover:bg-spain-red/20 hover:border-spain-red hover:scale-105">
+              {t("food")}
+            </button>
+          </Link>
         </motion.div>
 
         <motion.div

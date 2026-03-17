@@ -115,7 +115,7 @@ const zh: DayData[] = [
   },
   {
     day: 6, date: "5月6日", city: "塞维利亚", cityEs: "Sevilla", region: "安达卢西亚首府",
-    coords: [37.3891, -5.9845], imageUrl: "https://images.unsplash.com/photo-1579202673506-ca3ce28943ef?w=1920&q=80", color: "#C84B31",
+    coords: [37.3891, -5.9845], imageUrl: "https://images.pexels.com/photos/763429/pexels-photo-763429.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#C84B31",
     activities: [
       { time: "09:00", title: "塞维利亚大教堂与希拉尔达塔", titleEs: "Catedral y Giralda", description: "世界第三大教堂，哥伦布长眠于此，登顶希拉尔达塔俯瞰全城", duration: "2小时", icon: "⛪" },
       { time: "12:00", title: "阿尔卡萨宫", titleEs: "Real Alcázar", description: "仍在使用的最古老皇宫之一，穆德哈尔风格建筑，《权力的游戏》取景地", duration: "2小时", icon: "🏰" },
@@ -144,7 +144,7 @@ const zh: DayData[] = [
   },
   {
     day: 8, date: "5月8日", city: "格拉纳达", cityEs: "Granada", region: "阿尔罕布拉宫",
-    coords: [37.1773, -3.5986], imageUrl: "https://images.unsplash.com/photo-1512699355324-f07e3106dae5?w=1920&q=80", color: "#2C5F2E",
+    coords: [37.1773, -3.5986], imageUrl: "https://images.pexels.com/photos/11829151/pexels-photo-11829151.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#2C5F2E",
     activities: [
       { time: "08:00", title: "阿尔罕布拉宫早场参观", titleEs: "Alhambra - Visita Matinal", description: "提前网上预订！纳萨里宫殿门票每天限量，卡洛斯五世宫、赫内拉利费花园", duration: "4小时", icon: "🏰" },
       { time: "13:00", title: "阿尔拜辛区午餐", titleEs: "Almuerzo en Albaicín", description: "摩尔区白色小屋，俯瞰阿尔罕布拉宫全景", duration: "1.5小时", icon: "🌄" },
@@ -253,7 +253,7 @@ const en: DayData[] = [
   },
   {
     day: 6, date: "May 6", city: "Seville", cityEs: "Sevilla", region: "Andalusian Capital",
-    coords: [37.3891, -5.9845], imageUrl: "https://images.unsplash.com/photo-1579202673506-ca3ce28943ef?w=1920&q=80", color: "#C84B31",
+    coords: [37.3891, -5.9845], imageUrl: "https://images.pexels.com/photos/763429/pexels-photo-763429.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#C84B31",
     activities: [
       { time: "09:00", title: "Seville Cathedral & La Giralda", titleEs: "Catedral y Giralda", description: "World's third-largest cathedral — Columbus is buried here. Climb La Giralda for panoramic views", duration: "2 hrs", icon: "⛪" },
       { time: "12:00", title: "Real Alcázar", titleEs: "Real Alcázar", description: "One of the oldest royal palaces still in use. Stunning Mudéjar architecture and Game of Thrones filming location", duration: "2 hrs", icon: "🏰" },
@@ -282,7 +282,7 @@ const en: DayData[] = [
   },
   {
     day: 8, date: "May 8", city: "Granada", cityEs: "Granada", region: "Alhambra",
-    coords: [37.1773, -3.5986], imageUrl: "https://images.unsplash.com/photo-1512699355324-f07e3106dae5?w=1920&q=80", color: "#2C5F2E",
+    coords: [37.1773, -3.5986], imageUrl: "https://images.pexels.com/photos/11829151/pexels-photo-11829151.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#2C5F2E",
     activities: [
       { time: "08:00", title: "Alhambra Morning Visit", titleEs: "Alhambra - Visita Matinal", description: "Book well in advance! Nasrid Palace tickets are strictly limited. Also visit Carlos V Palace and Generalife Gardens", duration: "4 hrs", icon: "🏰" },
       { time: "13:00", title: "Lunch in Albaicín", titleEs: "Almuerzo en Albaicín", description: "The Moorish quarter of white-washed houses with panoramic views of the Alhambra", duration: "1.5 hrs", icon: "🌄" },
@@ -391,7 +391,7 @@ const ja: DayData[] = [
   },
   {
     day: 6, date: "5月6日", city: "セビリア", cityEs: "Sevilla", region: "アンダルシアの首都",
-    coords: [37.3891, -5.9845], imageUrl: "https://images.unsplash.com/photo-1579202673506-ca3ce28943ef?w=1920&q=80", color: "#C84B31",
+    coords: [37.3891, -5.9845], imageUrl: "https://images.pexels.com/photos/763429/pexels-photo-763429.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#C84B31",
     activities: [
       { time: "09:00", title: "セビリア大聖堂とヒラルダの塔", titleEs: "Catedral y Giralda", description: "世界第3位の規模の大聖堂 — コロンブスが眠る。ヒラルダの塔に登り街を一望", duration: "2時間", icon: "⛪" },
       { time: "12:00", title: "レアル・アルカサル", titleEs: "Real Alcázar", description: "現役最古の王宮のひとつ。ムデハル様式建築、ゲーム・オブ・スローンズの撮影地", duration: "2時間", icon: "🏰" },
@@ -420,7 +420,7 @@ const ja: DayData[] = [
   },
   {
     day: 8, date: "5月8日", city: "グラナダ", cityEs: "Granada", region: "アルハンブラ宮殿",
-    coords: [37.1773, -3.5986], imageUrl: "https://images.unsplash.com/photo-1512699355324-f07e3106dae5?w=1920&q=80", color: "#2C5F2E",
+    coords: [37.1773, -3.5986], imageUrl: "https://images.pexels.com/photos/11829151/pexels-photo-11829151.jpeg?auto=compress&cs=tinysrgb&w=1920", color: "#2C5F2E",
     activities: [
       { time: "08:00", title: "アルハンブラ宮殿 早朝訪問", titleEs: "Alhambra - Visita Matinal", description: "事前予約必須！ナスル朝宮殿は入場制限あり。カルロス5世宮殿、ヘネラリーフェ庭園も見学", duration: "4時間", icon: "🏰" },
       { time: "13:00", title: "アルバイシン地区でランチ", titleEs: "Almuerzo en Albaicín", description: "白い家が並ぶムーア人地区でアルハンブラを一望", duration: "1.5時間", icon: "🌄" },

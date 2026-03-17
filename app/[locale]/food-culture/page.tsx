@@ -21,9 +21,9 @@ const dishImages = [
 ];
 
 const regionImages = [
-  "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80",
+  "https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&w=900",
   "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=900&q=80",
-  "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=900&q=80",
+  "https://images.pexels.com/photos/2009906/pexels-photo-2009906.jpeg?auto=compress&cs=tinysrgb&w=900",
   "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=80",
 ];
 
