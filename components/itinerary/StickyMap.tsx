@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
+import { useTranslations } from "next-intl";
 import type { DayData } from "@/data/itinerary-a";
 
 interface Props {
@@ -8,6 +9,7 @@ interface Props {
 }
 
 export default function StickyMap({ days, activeDay }: Props) {
+  const t = useTranslations("itinerary");
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<any>(null);
   const markersRef = useRef<any[]>([]);
@@ -117,7 +119,7 @@ export default function StickyMap({ days, activeDay }: Props) {
       <div ref={mapRef} className="w-full h-full rounded-xl" />
       {/* Day indicator */}
       <div className="absolute top-4 left-4 glass-dark rounded-lg px-3 py-2 z-[1000]">
-        <p className="text-white/60 text-xs">当前位置</p>
+        <p className="text-white/60 text-xs">{t("location")}</p>
         <p className="text-white font-semibold text-sm">{days[activeDay]?.city}</p>
         <p className="text-white/50 text-xs">{days[activeDay]?.cityEs}</p>
       </div>

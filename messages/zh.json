@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "探索西班牙 | Discover Spain",
+    "description": "专为中国旅行者打造的精品西班牙旅游指南 — 行程推荐、美食文化与实用旅行信息。"
+  },
+  "nav": {
+    "home": "首页",
+    "spring": "春季行程",
+    "autumn": "秋季行程",
+    "food": "美食文化"
+  },
+  "hero": {
+    "tag": "Premium Travel Experience",
+    "title": "探索西班牙",
+    "subtitle": "Discover Spain",
+    "tagline": "感受激情弗拉明戈 · 品味艺术建筑 · 畅享地中海风情",
+    "spring": "春季行程 · 9天",
+    "autumn": "秋季行程 · 9天",
+    "scroll": "向下滚动"
+  },
+  "culture": {
+    "tag": "Culture & Heritage",
+    "title": "西班牙文化精髓",
+    "subtitle": "探索这片充满激情的土地，感受跨越千年的文明积淀",
+    "cards": [
+      {
+        "title": "弗拉明戈",
+        "description": "源自安达卢西亚的激情艺术，融合了吉卜赛、摩尔和西班牙文化，2010年列入UNESCO非遗名录"
+      },
+      {
+        "title": "高迪建筑",
+        "description": "安东尼·高迪的鬼才设计，圣家堂、桂尔公园等建筑改变了世人对建筑的想象"
+      },
+      {
+        "title": "普拉多艺术",
+        "description": "全球最重要的艺术博物馆之一，收藏委拉斯开兹、戈雅、鲁本斯等大师超过8000件杰作"
+      },
+      {
+        "title": "塔帕斯文化",
+        "description": "西班牙独特的饮食文化，小食配美酒，是社交和享受生活的最佳方式"
+      },
+      {
+        "title": "阿尔罕布拉宫",
+        "description": "摩尔王朝留下的宫殿杰作，精致的阿拉伯式装饰和水景花园令人叹为观止"
+      }
+    ]
+  },
+  "visa": {
+    "tag": "Travel Guide",
+    "title": "出行必备指南",
+    "climateTitle": "🌤️ 气候与最佳旅游季节",
+    "practicalTitle": "💡 实用信息",
+    "visaTitle": "🛂 申根签证材料清单",
+    "visaSubtitle": "处理时间约15工作日 · 签证费约80€（约¥620）",
+    "ifApplicable": "如适用",
+    "warningTitle": "⚠️ 重要提示",
+    "warningText": "建议提前2个月申请签证，旅游旺季可能需要更长时间。可通过西班牙驻华大使馆或授权签证中心提交申请。",
+    "weather": [
+      { "season": "春季 (3-5月)", "temp": "10-20°C", "weather": "温和宜人", "rating": 5 },
+      { "season": "夏季 (6-8月)", "temp": "25-40°C", "weather": "炎热干燥", "rating": 3 },
+      { "season": "秋季 (9-11月)", "temp": "15-25°C", "weather": "舒适凉爽", "rating": 5 },
+      { "season": "冬季 (12-2月)", "temp": "5-15°C", "weather": "温和多雨", "rating": 3 }
+    ],
+    "practical": [
+      { "icon": "💶", "label": "货币", "value": "欧元 (€)\n1€ ≈ ¥7.8" },
+      { "icon": "🔌", "label": "插头", "value": "欧标两圆脚\n220V" },
+      { "icon": "📱", "label": "上网", "value": "购买当地SIM\n或使用漫游" },
+      { "icon": "🚗", "label": "交通", "value": "AVE高铁\n城际方便" },
+      { "icon": "⏰", "label": "时差", "value": "比北京晚7小时\n（夏令时晚6小时）" },
+      { "icon": "🏥", "label": "医疗", "value": "急救: 112\n医院质量佳" }
+    ],
+    "checklist": [
+      { "item": "有效护照", "detail": "有效期须超过预计停留时间6个月以上，且有至少两页空白页", "required": true },
+      { "item": "申根签证申请表", "detail": "如实填写，须本人签字", "required": true },
+      { "item": "近期护照照片", "detail": "3.5x4.5cm白底彩色照片，近6个月内拍摄", "required": true },
+      { "item": "银行流水/财力证明", "detail": "近3-6个月银行账单，显示充足资金（每天至少65€）", "required": true },
+      { "item": "旅行保险", "detail": "保额不低于3万欧元，覆盖全程", "required": true },
+      { "item": "行程确认", "detail": "机票预订单、酒店预订确认单", "required": true },
+      { "item": "在职证明/营业执照", "detail": "在职人员需提供，个体工商需提供营业执照", "required": false },
+      { "item": "邀请函（如有）", "detail": "访友或商务人员需提供", "required": false }
+    ]
+  },
+  "phrases": {
+    "tag": "Language Guide",
+    "title": "实用西班牙语",
+    "subtitle": "掌握这些短语，让您的旅途更顺畅 · 点击查看发音",
+    "spanishLabel": "西班牙语",
+    "phoneticLabel": "中文谐音",
+    "usageLabel": "使用场景",
+    "phrases": [
+      { "translation": "你好", "spanish": "Hola", "phonetic": "奥-拉", "category": "问候", "usage": "随时可用，非常常见" },
+      { "translation": "谢谢", "spanish": "Gracias", "phonetic": "格拉-西亚斯", "category": "礼貌", "usage": "收到服务或帮助时" },
+      { "translation": "不客气", "spanish": "De nada", "phonetic": "德-纳-达", "category": "礼貌", "usage": "回应谢谢" },
+      { "translation": "请问/麻烦", "spanish": "Por favor", "phonetic": "波尔-法-沃尔", "category": "礼貌", "usage": "请求帮助时" },
+      { "translation": "多少钱？", "spanish": "¿Cuánto cuesta?", "phonetic": "宽-托-奎斯-塔", "category": "购物", "usage": "在商店或市场" },
+      { "translation": "在哪里？", "spanish": "¿Dónde está?", "phonetic": "冬-德-埃斯-塔", "category": "导航", "usage": "问路必备" },
+      { "translation": "这个/那个", "spanish": "Esto/Eso", "phonetic": "埃斯-托/埃-索", "category": "指示", "usage": "指向物品时" },
+      { "translation": "好吃！", "spanish": "¡Está delicioso!", "phonetic": "埃斯-塔-德利-西-奥-索", "category": "饮食", "usage": "用餐时夸赞" },
+      { "translation": "一杯啤酒", "spanish": "Una cerveza", "phonetic": "乌-纳-塞尔-贝-萨", "category": "饮食", "usage": "在酒吧必备" },
+      { "translation": "结账", "spanish": "La cuenta, por favor", "phonetic": "拉-宽-塔-波尔-法-沃尔", "category": "饮食", "usage": "用餐后结账" },
+      { "translation": "帮帮我！", "spanish": "¡Ayuda!", "phonetic": "阿-尤-达", "category": "紧急", "usage": "紧急求助" },
+      { "translation": "我迷路了", "spanish": "Estoy perdido/a", "phonetic": "埃斯-托伊-佩尔-迪-多", "category": "导航", "usage": "向他人求助" }
+    ],
+    "categoryColors": {
+      "问候": "bg-green-500/20 text-green-400 border-green-500/30",
+      "礼貌": "bg-blue-500/20 text-blue-400 border-blue-500/30",
+      "购物": "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
+      "导航": "bg-purple-500/20 text-purple-400 border-purple-500/30",
+      "指示": "bg-orange-500/20 text-orange-400 border-orange-500/30",
+      "饮食": "bg-red-500/20 text-red-400 border-red-500/30",
+      "紧急": "bg-pink-500/20 text-pink-400 border-pink-500/30"
+    }
+  },
+  "portals": {
+    "tag": "Curated Itineraries",
+    "title": "精选行程推荐",
+    "subtitle": "两条精心设计的路线，带您领略不同面貌的西班牙",
+    "viewMore": "查看完整行程",
+    "portals": [
+      {
+        "season": "春季之旅",
+        "dates": "5月 · 9天",
+        "description": "马德里·托莱多·科尔多瓦·塞维利亚·格拉纳达",
+        "highlights": ["阿尔罕布拉宫", "普拉多博物馆", "弗拉明戈秀", "安达卢西亚白色山村"]
+      },
+      {
+        "season": "秋季之旅",
+        "dates": "9月 · 9天",
+        "description": "巴塞罗那·瓦伦西亚·伊维萨·马略卡",
+        "highlights": ["圣家堂", "地中海海滩", "海鲜饭发源地", "巴利阿里群岛"]
+      }
+    ]
+  },
+  "food": {
+    "heroTag": "Gastronomía Española",
+    "heroTitle": "西班牙美食文化",
+    "heroSubtitle": "La Cultura Gastronómica de España",
+    "heroTagline": "从塔帕斯到海鲜饭，感受伊比利亚的饮食灵魂",
+    "philosophyTag": "Philosophy",
+    "philosophyTitle": "饮食哲学",
+    "philosophySubtitle": "西班牙人将进食视为生活本身，而非仅仅是充饥的手段",
+    "pillars": [
+      { "icon": "🫒", "title": "慢食文化", "text": "午饭 2–4 pm，晚饭 9–11 pm。用餐是一天中最重要的仪式，时间从不匆忙。" },
+      { "icon": "🍷", "title": "社交饮食", "text": "食物是聚会的核心。塔帕斯文化让人们在轻松氛围中分享、品尝、交流。" },
+      { "icon": "🌿", "title": "地中海精华", "text": "橄榄油、新鲜食材、季节性烹饪。简单的原料经过巧手变为令人难忘的佳肴。" }
+    ],
+    "dishesTag": "Must Try",
+    "dishesTitle": "八大必尝美食",
+    "dishesSubtitle": "每一道都是西班牙饮食文化的缩影",
+    "dishes": [
+      { "name": "塔帕斯", "es": "Tapas", "desc": "西班牙小吃文化的灵魂" },
+      { "name": "海鲜饭", "es": "Paella", "desc": "发源于瓦伦西亚的国民料理" },
+      { "name": "伊比利亚火腿", "es": "Jamón Ibérico", "desc": "世界顶级火腿" },
+      { "name": "西班牙冷汤", "es": "Gazpacho", "desc": "安达卢西亚的夏日清凉" },
+      { "name": "油条蘸热巧克力", "es": "Churros", "desc": "早餐经典" },
+      { "name": "巴斯克小吃", "es": "Pintxos", "desc": "巴斯克地区的精致小食" },
+      { "name": "西班牙土豆蛋饼", "es": "Tortilla Española", "desc": "家常国民料理" },
+      { "name": "加利西亚章鱼", "es": "Pulpo a la Gallega", "desc": "海鲜之王" }
+    ],
+    "regionsTag": "Regional Cuisine",
+    "regionsTitle": "四大美食大区",
+    "regionsSubtitle": "每个大区都有截然不同的饮食风格与代表菜肴",
+    "regions": [
+      {
+        "name": "加泰罗尼亚",
+        "es": "Cataluña",
+        "city": "Barcelona",
+        "desc": "加泰罗尼亚料理以创意与精致著称，是分子料理的发源地。传奇餐厅 El Bulli 曾引领全球美食革命，巴塞罗那的博盖利亚市场汇聚世界顶级食材。配以当地出产的 Cava 起泡酒，每一口都是艺术与味觉的碰撞。",
+        "highlights": ["创意分子料理", "El Bulli 精神", "Cava 起泡酒", "博盖利亚市场"]
+      },
+      {
+        "name": "安达卢西亚",
+        "es": "Andalucía",
+        "city": "Seville · Granada",
+        "desc": "塔帕斯文化的诞生地，摩尔文化与基督教文明的交汇孕育了独特的饮食风格。塞维利亚的老城酒吧里，一杯 Fino 雪莉酒配上精心摆盘的冷汤与火腿，是最地道的安达卢西亚体验。",
+        "highlights": ["塔帕斯发源地", "Gazpacho 冷汤", "Jamón 火腿", "Fino 雪莉酒"]
+      },
+      {
+        "name": "瓦伦西亚",
+        "es": "Valencia",
+        "city": "Valencia",
+        "desc": "正宗海鲜饭（Paella Valenciana）的故乡，使用当地种植的 Bomba 大米与新鲜地中海海鲜烹制。Horchata 虎坚果奶是当地独有的消暑饮品，金黄的柑橘园令这片土地充满阳光香气。",
+        "highlights": ["正宗海鲜饭", "Horchata 虎坚果奶", "柑橘之乡", "地中海海鲜"]
+      },
+      {
+        "name": "巴斯克",
+        "es": "País Vasco",
+        "city": "San Sebastián · Bilbao",
+        "desc": "全球米其林星密度最高的地区，圣塞巴斯蒂安拥有比任何城市更多的米其林星餐厅。街头的 Pintxos 小吃吧是美食探索的绝佳起点，配一杯清爽的 Txakoli 白葡萄酒，感受巴斯克人对食物的极致热情。",
+        "highlights": ["最高密度米其林星", "Pintxos 小食", "Txakoli 白葡萄酒", "圣塞巴斯蒂安"]
+      }
+    ],
+    "tipsTag": "Dining Tips",
+    "tipsTitle": "用餐文化贴士",
+    "tipsSubtitle": "掌握这些技巧，像本地人一样享用西班牙美食",
+    "tips": [
+      { "icon": "🕐", "title": "用餐时间", "body": "午餐 13:00–16:00，晚餐 21:00–23:00。切勿在 20 点前进餐厅，否则可能只有你一桌。" },
+      { "icon": "🍺", "title": "塔帕斯礼仪", "body": "站在吧台前点单，随意搭配啤酒或葡萄酒。部分地区点饮料会免费赠送塔帕斯。" },
+      { "icon": "💰", "title": "小费文化", "body": "非强制性，满意的服务可留 5–10%。高档餐厅可多留，日常塔帕斯吧留硬币即可。" },
+      { "icon": "🍷", "title": "葡萄酒搭配", "body": "Rioja 红酒配肉类与火腿，Albariño 白酒配海鲜，Cava 起泡酒配开胃小食。" },
+      { "icon": "🗣️", "title": "点菜用语", "body": "「Una ración」= 一份，「Una tapa」= 小份，「La carta, por favor」= 请给我菜单。" },
+      { "icon": "🏪", "title": "市场体验", "body": "Mercado de la Boqueria（巴塞罗那）与 Mercado de San Miguel（马德里）是最值得逛的美食市场。" }
+    ]
+  },
+  "footer": {
+    "brandTitle": "探索西班牙",
+    "brandDesc": "专为中国旅行者打造的精品西班牙旅游指南，带您领略伊比利亚半岛的壮美风光与深厚文化。",
+    "itineraryTitle": "行程推荐",
+    "springLink": "春季之旅 — 马德里·安达卢西亚",
+    "autumnLink": "秋季之旅 — 巴塞罗那·地中海",
+    "infoTitle": "实用信息",
+    "info": ["🛂 申根签证申请", "💶 货币：欧元 (€)", "📞 紧急电话：112", "⏰ 时区：CET (UTC+1)"],
+    "copyright": "© 2024 探索西班牙 | 仅供参考，实际行程请根据个人情况调整"
+  },
+  "itinerary": {
+    "dailyLabel": "每日行程",
+    "foodLabel": "美食推荐",
+    "location": "当前位置",
+    "daysLabel": "天精品行程 · Días",
+    "springTitle": "春季之旅",
+    "springSubtitle": "Madrid · Toledo · Córdoba · Sevilla · Granada",
+    "springSeason": "Spring Itinerary · 9 Days",
+    "autumnTitle": "秋季之旅",
+    "autumnSubtitle": "Barcelona · Valencia · Ibiza · Mallorca",
+    "autumnSeason": "Autumn Itinerary · 9 Days"
+  }
+}

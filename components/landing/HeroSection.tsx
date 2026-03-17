@@ -1,9 +1,11 @@
 "use client";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 export default function HeroSection() {
+  const t = useTranslations("hero");
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
@@ -21,26 +23,23 @@ export default function HeroSection() {
       </motion.div>
 
       <div className="relative h-full flex flex-col items-center justify-center text-center px-6">
-        <motion.div
-          style={{ opacity }}
-          className="flex flex-col items-center"
-        >
+        <motion.div style={{ opacity }} className="flex flex-col items-center">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
           >
             <p className="text-spain-gold text-sm tracking-[0.3em] uppercase mb-4 font-light">
-              Premium Travel Experience
+              {t("tag")}
             </p>
             <h1 className="text-6xl md:text-8xl font-bold text-white text-shadow mb-4 leading-tight">
-              探索西班牙
+              {t("title")}
             </h1>
             <p className="text-2xl md:text-3xl text-white/90 font-light tracking-widest mb-2">
-              Discover Spain
+              {t("subtitle")}
             </p>
             <p className="text-white/70 text-lg mt-4 mb-10 font-light">
-              感受激情弗拉明戈 · 品味艺术建筑 · 畅享地中海风情
+              {t("tagline")}
             </p>
           </motion.div>
         </motion.div>
@@ -53,12 +52,12 @@ export default function HeroSection() {
         >
           <Link href="/itinerary-a">
             <button className="px-8 py-4 bg-spain-red hover:bg-red-700 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg shadow-spain-red/30">
-              春季行程 · 9天
+              {t("spring")}
             </button>
           </Link>
           <Link href="/itinerary-b">
             <button className="px-8 py-4 glass border-white/30 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:bg-white/20">
-              秋季行程 · 9天
+              {t("autumn")}
             </button>
           </Link>
         </motion.div>
@@ -69,7 +68,7 @@ export default function HeroSection() {
           transition={{ delay: 1.5 }}
           className="absolute bottom-8 flex flex-col items-center"
         >
-          <p className="text-white/50 text-xs mb-2 tracking-widest">向下滚动</p>
+          <p className="text-white/50 text-xs mb-2 tracking-widest">{t("scroll")}</p>
           <motion.div
             animate={{ y: [0, 10, 0] }}
             transition={{ repeat: Infinity, duration: 1.5 }}

@@ -1,6 +1,7 @@
 "use client";
 import { useState, useCallback } from "react";
 import dynamic from "next/dynamic";
+import { useTranslations } from "next-intl";
 import type { DayData } from "@/data/itinerary-a";
 import DynamicBackground from "./DynamicBackground";
 import DayPanel from "./DayPanel";
@@ -17,6 +18,7 @@ interface Props {
 }
 
 export default function ItineraryLayout({ days, title, subtitle, season }: Props) {
+  const t = useTranslations("itinerary");
   const [activeDay, setActiveDay] = useState(0);
 
   const handleDayVisible = useCallback((index: number) => {
@@ -35,7 +37,7 @@ export default function ItineraryLayout({ days, title, subtitle, season }: Props
         <p className="text-spain-gold text-sm tracking-widest uppercase mb-3">{season}</p>
         <h1 className="text-5xl md:text-6xl font-bold text-white mb-3">{title}</h1>
         <p className="text-white/70 text-xl mb-2">{subtitle}</p>
-        <p className="text-white/50 text-sm">{days.length} 天精品行程 · {days.length} Días</p>
+        <p className="text-white/50 text-sm">{days.length} {t("daysLabel")}</p>
       </div>
 
       {/* Day progress bar */}

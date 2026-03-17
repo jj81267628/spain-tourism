@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "Discover Spain | Premium Travel Guide",
+    "description": "A premium Spain travel guide — curated itineraries, food culture, and practical tips for the Iberian Peninsula."
+  },
+  "nav": {
+    "home": "Home",
+    "spring": "Spring Trip",
+    "autumn": "Autumn Trip",
+    "food": "Food Culture"
+  },
+  "hero": {
+    "tag": "Premium Travel Experience",
+    "title": "Discover Spain",
+    "subtitle": "Discover Spain",
+    "tagline": "Flamenco · Art · Mediterranean",
+    "spring": "Spring · 9 Days",
+    "autumn": "Autumn · 9 Days",
+    "scroll": "Scroll"
+  },
+  "culture": {
+    "tag": "Culture & Heritage",
+    "title": "The Soul of Spain",
+    "subtitle": "Explore a land of passion — centuries of civilisation await",
+    "cards": [
+      {
+        "title": "Flamenco",
+        "description": "Born in Andalusia, blending Romani, Moorish and Spanish soul — a UNESCO Intangible Heritage since 2010."
+      },
+      {
+        "title": "Gaudí Architecture",
+        "description": "Antoni Gaudí's visionary designs — Sagrada Família, Park Güell — forever changed the world's idea of architecture."
+      },
+      {
+        "title": "Prado Museum",
+        "description": "One of the world's greatest art museums, with over 8,000 masterworks by Velázquez, Goya, and Rubens."
+      },
+      {
+        "title": "Tapas Culture",
+        "description": "Spain's unique culinary tradition — small bites with great wine, the perfect way to socialise and savour life."
+      },
+      {
+        "title": "Alhambra",
+        "description": "The Moorish palace masterpiece, with breathtaking arabesque decoration and serene water gardens."
+      }
+    ]
+  },
+  "visa": {
+    "tag": "Travel Guide",
+    "title": "Essential Travel Guide",
+    "climateTitle": "🌤️ Climate & Best Season",
+    "practicalTitle": "💡 Practical Info",
+    "visaTitle": "🛂 Schengen Visa Checklist",
+    "visaSubtitle": "Processing time ~15 working days · Visa fee ~€80",
+    "ifApplicable": "If applicable",
+    "warningTitle": "⚠️ Important Notice",
+    "warningText": "Apply at least 2 months in advance. Allow extra time during peak season. Submit via the Spanish Embassy or an authorised visa centre.",
+    "weather": [
+      { "season": "Spring (Mar–May)", "temp": "10–20°C", "weather": "Mild and pleasant", "rating": 5 },
+      { "season": "Summer (Jun–Aug)", "temp": "25–40°C", "weather": "Hot and dry", "rating": 3 },
+      { "season": "Autumn (Sep–Nov)", "temp": "15–25°C", "weather": "Comfortable and cool", "rating": 5 },
+      { "season": "Winter (Dec–Feb)", "temp": "5–15°C", "weather": "Mild and rainy", "rating": 3 }
+    ],
+    "practical": [
+      { "icon": "💶", "label": "Currency", "value": "Euro (€)\n1€ ≈ $1.10" },
+      { "icon": "🔌", "label": "Plug", "value": "Type C (EU)\n220V" },
+      { "icon": "📱", "label": "Internet", "value": "Local SIM\nor roaming" },
+      { "icon": "🚗", "label": "Transport", "value": "AVE high-speed\ntrain network" },
+      { "icon": "⏰", "label": "Time Zone", "value": "CET (UTC+1)\nCEST in summer" },
+      { "icon": "🏥", "label": "Medical", "value": "Emergency: 112\nExcellent hospitals" }
+    ],
+    "checklist": [
+      { "item": "Valid Passport", "detail": "Valid for 6+ months beyond your stay, with at least 2 blank pages.", "required": true },
+      { "item": "Schengen Visa Application Form", "detail": "Completed truthfully and signed in person.", "required": true },
+      { "item": "Recent Passport Photos", "detail": "3.5×4.5 cm, white background, taken within the last 6 months.", "required": true },
+      { "item": "Bank Statement / Proof of Funds", "detail": "3–6 months of statements showing sufficient funds (min. €65/day).", "required": true },
+      { "item": "Travel Insurance", "detail": "Coverage of at least €30,000 for the entire trip.", "required": true },
+      { "item": "Travel Itinerary Confirmation", "detail": "Flight booking and hotel reservation confirmations.", "required": true },
+      { "item": "Employment Certificate / Business Licence", "detail": "Required for employees; business owners provide a business licence.", "required": false },
+      { "item": "Invitation Letter (if applicable)", "detail": "Required for visiting friends or business travel.", "required": false }
+    ]
+  },
+  "phrases": {
+    "tag": "Language Guide",
+    "title": "Useful Spanish Phrases",
+    "subtitle": "Master these phrases for a smoother journey · Click to hear pronunciation",
+    "spanishLabel": "Spanish",
+    "phoneticLabel": "Pronunciation",
+    "usageLabel": "When to use",
+    "phrases": [
+      { "translation": "Hello", "spanish": "Hola", "phonetic": "OH-la", "category": "Greeting", "usage": "Anytime — very common" },
+      { "translation": "Thank you", "spanish": "Gracias", "phonetic": "GRA-thyahs", "category": "Polite", "usage": "When receiving service or help" },
+      { "translation": "You're welcome", "spanish": "De nada", "phonetic": "deh NAH-dah", "category": "Polite", "usage": "In response to 'thank you'" },
+      { "translation": "Please", "spanish": "Por favor", "phonetic": "por fah-VOR", "category": "Polite", "usage": "When asking for something" },
+      { "translation": "How much?", "spanish": "¿Cuánto cuesta?", "phonetic": "KWAHN-toh KWES-tah", "category": "Shopping", "usage": "In shops or markets" },
+      { "translation": "Where is...?", "spanish": "¿Dónde está?", "phonetic": "DON-deh es-TAH", "category": "Navigation", "usage": "When asking directions" },
+      { "translation": "This / That", "spanish": "Esto/Eso", "phonetic": "ES-toh / EH-soh", "category": "Pointing", "usage": "When pointing at items" },
+      { "translation": "Delicious!", "spanish": "¡Está delicioso!", "phonetic": "es-TAH deh-lee-THYOH-soh", "category": "Dining", "usage": "Complimenting food" },
+      { "translation": "A beer, please", "spanish": "Una cerveza", "phonetic": "OO-nah thehr-VEH-thah", "category": "Dining", "usage": "Essential at any bar" },
+      { "translation": "The bill, please", "spanish": "La cuenta, por favor", "phonetic": "lah KWEN-tah por fah-VOR", "category": "Dining", "usage": "When paying at a restaurant" },
+      { "translation": "Help!", "spanish": "¡Ayuda!", "phonetic": "ah-YOO-dah", "category": "Emergency", "usage": "In an emergency" },
+      { "translation": "I am lost", "spanish": "Estoy perdido/a", "phonetic": "es-TOY pehr-DEE-doh", "category": "Navigation", "usage": "When asking for help" }
+    ],
+    "categoryColors": {
+      "Greeting": "bg-green-500/20 text-green-400 border-green-500/30",
+      "Polite": "bg-blue-500/20 text-blue-400 border-blue-500/30",
+      "Shopping": "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
+      "Navigation": "bg-purple-500/20 text-purple-400 border-purple-500/30",
+      "Pointing": "bg-orange-500/20 text-orange-400 border-orange-500/30",
+      "Dining": "bg-red-500/20 text-red-400 border-red-500/30",
+      "Emergency": "bg-pink-500/20 text-pink-400 border-pink-500/30"
+    }
+  },
+  "portals": {
+    "tag": "Curated Itineraries",
+    "title": "Handpicked Routes",
+    "subtitle": "Two carefully crafted journeys showcasing different faces of Spain",
+    "viewMore": "View Full Itinerary",
+    "portals": [
+      {
+        "season": "Spring Journey",
+        "dates": "May · 9 Days",
+        "description": "Madrid · Toledo · Córdoba · Seville · Granada",
+        "highlights": ["Alhambra", "Prado Museum", "Flamenco Show", "Andalusian White Villages"]
+      },
+      {
+        "season": "Autumn Journey",
+        "dates": "September · 9 Days",
+        "description": "Barcelona · Valencia · Ibiza · Mallorca",
+        "highlights": ["Sagrada Família", "Mediterranean Beach", "Birthplace of Paella", "Balearic Islands"]
+      }
+    ]
+  },
+  "food": {
+    "heroTag": "Gastronomía Española",
+    "heroTitle": "Spanish Food Culture",
+    "heroSubtitle": "La Cultura Gastronómica de España",
+    "heroTagline": "From Tapas to Paella — savour the soul of the Iberian table",
+    "philosophyTag": "Philosophy",
+    "philosophyTitle": "Dining Philosophy",
+    "philosophySubtitle": "For Spaniards, eating is life itself — not merely sustenance",
+    "pillars": [
+      { "icon": "🫒", "title": "Slow Food Culture", "text": "Lunch at 2–4 pm, dinner at 9–11 pm. Mealtimes are the most important ritual of the day — never rushed." },
+      { "icon": "🍷", "title": "Social Dining", "text": "Food is the heart of every gathering. Tapas culture invites people to share, taste and connect in a relaxed atmosphere." },
+      { "icon": "🌿", "title": "Mediterranean Essence", "text": "Olive oil, fresh produce, seasonal cooking. Simple ingredients transformed into unforgettable dishes by skilled hands." }
+    ],
+    "dishesTag": "Must Try",
+    "dishesTitle": "8 Must-Try Dishes",
+    "dishesSubtitle": "Each one a window into Spanish culinary culture",
+    "dishes": [
+      { "name": "Tapas", "es": "Tapas", "desc": "The soul of Spanish small-plate culture" },
+      { "name": "Paella", "es": "Paella", "desc": "The national dish, born in Valencia" },
+      { "name": "Iberian Ham", "es": "Jamón Ibérico", "desc": "The world's finest cured ham" },
+      { "name": "Cold Tomato Soup", "es": "Gazpacho", "desc": "Andalusia's refreshing summer classic" },
+      { "name": "Churros", "es": "Churros", "desc": "Classic breakfast with hot chocolate" },
+      { "name": "Basque Bites", "es": "Pintxos", "desc": "Elegant bar snacks from the Basque Country" },
+      { "name": "Spanish Omelette", "es": "Tortilla Española", "desc": "The quintessential home-cooked dish" },
+      { "name": "Galician Octopus", "es": "Pulpo a la Gallega", "desc": "King of Spanish seafood" }
+    ],
+    "regionsTag": "Regional Cuisine",
+    "regionsTitle": "4 Culinary Regions",
+    "regionsSubtitle": "Each region has its own distinct flavours and signature dishes",
+    "regions": [
+      {
+        "name": "Catalonia",
+        "es": "Cataluña",
+        "city": "Barcelona",
+        "desc": "Catalan cuisine is celebrated for its creativity and precision. The legendary El Bulli restaurant led a global culinary revolution, and La Boqueria market showcases world-class ingredients. Pair everything with locally produced Cava sparkling wine.",
+        "highlights": ["Creative Molecular Cuisine", "El Bulli Legacy", "Cava Sparkling Wine", "La Boqueria Market"]
+      },
+      {
+        "name": "Andalusia",
+        "es": "Andalucía",
+        "city": "Seville · Granada",
+        "desc": "The birthplace of tapas culture, shaped by the fusion of Moorish and Christian traditions. In Seville's old-town bars, a glass of Fino sherry with perfectly plated Gazpacho and Jamón is the most authentic Andalusian experience.",
+        "highlights": ["Birthplace of Tapas", "Gazpacho", "Jamón", "Fino Sherry"]
+      },
+      {
+        "name": "Valencia",
+        "es": "Valencia",
+        "city": "Valencia",
+        "desc": "The home of authentic Paella Valenciana, made with locally grown Bomba rice and fresh Mediterranean seafood. Horchata de Chufa is a uniquely Valencian summer drink, and golden citrus groves fill the region with sunshine and fragrance.",
+        "highlights": ["Authentic Paella", "Horchata de Chufa", "Citrus Country", "Mediterranean Seafood"]
+      },
+      {
+        "name": "Basque Country",
+        "es": "País Vasco",
+        "city": "San Sebastián · Bilbao",
+        "desc": "The region with the highest density of Michelin stars in the world. San Sebastián has more starred restaurants per capita than any other city. Street-level Pintxos bars are the perfect starting point, paired with a crisp glass of Txakoli white wine.",
+        "highlights": ["Highest Michelin Star Density", "Pintxos", "Txakoli White Wine", "San Sebastián"]
+      }
+    ],
+    "tipsTag": "Dining Tips",
+    "tipsTitle": "Dining Culture Tips",
+    "tipsSubtitle": "Eat like a local with these insider tips",
+    "tips": [
+      { "icon": "🕐", "title": "Meal Times", "body": "Lunch: 13:00–16:00; Dinner: 21:00–23:00. Don't arrive for dinner before 20:00 — you may be the only one there." },
+      { "icon": "🍺", "title": "Tapas Etiquette", "body": "Stand at the bar to order, and pair freely with beer or wine. In some regions, a free tapa comes with every drink ordered." },
+      { "icon": "💰", "title": "Tipping Culture", "body": "Not compulsory. A 5–10% tip is appreciated for good service. At casual tapas bars, leaving small coins is perfectly fine." },
+      { "icon": "🍷", "title": "Wine Pairing", "body": "Rioja red with meat and cured ham; Albariño white with seafood; Cava sparkling wine with starters." },
+      { "icon": "🗣️", "title": "Ordering Phrases", "body": "\"Una ración\" = full portion; \"Una tapa\" = small portion; \"La carta, por favor\" = the menu, please." },
+      { "icon": "🏪", "title": "Market Experience", "body": "Mercado de la Boqueria (Barcelona) and Mercado de San Miguel (Madrid) are the top food markets to visit." }
+    ]
+  },
+  "footer": {
+    "brandTitle": "Discover Spain",
+    "brandDesc": "A premium Spain travel guide crafted for travellers who seek depth, beauty, and authentic experience on the Iberian Peninsula.",
+    "itineraryTitle": "Itineraries",
+    "springLink": "Spring Journey — Madrid · Andalusia",
+    "autumnLink": "Autumn Journey — Barcelona · Mediterranean",
+    "infoTitle": "Useful Info",
+    "info": ["🛂 Schengen Visa", "💶 Currency: Euro (€)", "📞 Emergency: 112", "⏰ Time Zone: CET (UTC+1)"],
+    "copyright": "© 2024 Discover Spain | For reference only. Adjust itineraries to suit your needs."
+  },
+  "itinerary": {
+    "dailyLabel": "Daily Activities",
+    "foodLabel": "Food Picks",
+    "location": "Current Location",
+    "daysLabel": "Days · Premium Itinerary",
+    "springTitle": "Spring Journey",
+    "springSubtitle": "Madrid · Toledo · Córdoba · Seville · Granada",
+    "springSeason": "Spring Itinerary · 9 Days",
+    "autumnTitle": "Autumn Journey",
+    "autumnSubtitle": "Barcelona · Valencia · Ibiza · Mallorca",
+    "autumnSeason": "Autumn Itinerary · 9 Days"
+  }
+}

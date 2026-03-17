@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "スペイン探訪 | プレミアム旅行ガイド",
+    "description": "旅行者のためのプレミアムスペイン旅行ガイド — 厳選された旅程、食文化、そして実用的な旅行情報。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "spring": "春の旅程",
+    "autumn": "秋の旅程",
+    "food": "グルメ文化"
+  },
+  "hero": {
+    "tag": "プレミアム旅行体験",
+    "title": "スペインを旅する",
+    "subtitle": "Discover Spain",
+    "tagline": "フラメンコ · 芸術 · 地中海",
+    "spring": "春 · 9日間",
+    "autumn": "秋 · 9日間",
+    "scroll": "スクロール"
+  },
+  "culture": {
+    "tag": "文化と遺産",
+    "title": "スペインの魂",
+    "subtitle": "情熱の大地を探索し、千年の文明に触れる旅へ",
+    "cards": [
+      {
+        "title": "フラメンコ",
+        "description": "アンダルシアで生まれた情熱の芸術。ロマ、ムーア、スペインの文化が融合し、2010年にUNESCO無形文化遺産に登録された。"
+      },
+      {
+        "title": "ガウディ建築",
+        "description": "アントニ・ガウディの天才的なデザイン。サグラダ・ファミリア、グエル公園などが世界の建築の概念を変えた。"
+      },
+      {
+        "title": "プラド美術館",
+        "description": "ベラスケス、ゴヤ、ルーベンスらの8,000点以上の傑作を所蔵する、世界最高峰の美術館のひとつ。"
+      },
+      {
+        "title": "タパス文化",
+        "description": "スペイン独自の食文化。小皿料理とワインで社交し、人生を楽しむ最高の方法。"
+      },
+      {
+        "title": "アルハンブラ宮殿",
+        "description": "ムーア王朝が残した宮殿の傑作。精緻なアラベスク装飾と静謐な水庭園が息をのむ美しさを誇る。"
+      }
+    ]
+  },
+  "visa": {
+    "tag": "旅行ガイド",
+    "title": "旅行必携ガイド",
+    "climateTitle": "🌤️ 気候と旅行適期",
+    "practicalTitle": "💡 実用情報",
+    "visaTitle": "🛂 シェンゲンビザ必要書類",
+    "visaSubtitle": "処理期間 約15営業日 · ビザ申請料 約€80",
+    "ifApplicable": "該当する場合",
+    "warningTitle": "⚠️ 重要事項",
+    "warningText": "少なくとも2か月前に申請することをお勧めします。繁忙期はさらに時間がかかる場合があります。スペイン大使館または認定ビザセンターでお申し込みください。",
+    "weather": [
+      { "season": "春 (3〜5月)", "temp": "10〜20°C", "weather": "穏やかで快適", "rating": 5 },
+      { "season": "夏 (6〜8月)", "temp": "25〜40°C", "weather": "暑く乾燥", "rating": 3 },
+      { "season": "秋 (9〜11月)", "temp": "15〜25°C", "weather": "爽やかで快適", "rating": 5 },
+      { "season": "冬 (12〜2月)", "temp": "5〜15°C", "weather": "穏やかで雨が多い", "rating": 3 }
+    ],
+    "practical": [
+      { "icon": "💶", "label": "通貨", "value": "ユーロ (€)\n1€ ≈ ¥160" },
+      { "icon": "🔌", "label": "プラグ", "value": "Cタイプ (EU)\n220V" },
+      { "icon": "📱", "label": "インターネット", "value": "現地SIM\nまたはローミング" },
+      { "icon": "🚗", "label": "交通", "value": "AVE高速鉄道\n都市間に便利" },
+      { "icon": "⏰", "label": "時差", "value": "日本より8時間遅れ\n（夏時間は7時間）" },
+      { "icon": "🏥", "label": "医療", "value": "緊急連絡先: 112\n医療水準は高い" }
+    ],
+    "checklist": [
+      { "item": "有効なパスポート", "detail": "滞在終了後6か月以上有効で、白紙ページが2ページ以上必要。", "required": true },
+      { "item": "シェンゲンビザ申請書", "detail": "正確に記入し、本人署名が必要。", "required": true },
+      { "item": "最近のパスポート写真", "detail": "3.5×4.5cm、白背景、直近6か月以内に撮影。", "required": true },
+      { "item": "銀行残高証明 / 資力証明", "detail": "3〜6か月分の口座明細。一日最低€65以上の資金証明。", "required": true },
+      { "item": "海外旅行保険", "detail": "旅行全期間をカバーする€30,000以上の保険。", "required": true },
+      { "item": "旅行日程確認書", "detail": "航空券予約確認書とホテル予約確認書。", "required": true },
+      { "item": "在職証明 / 事業許可証", "detail": "会社員は在職証明、自営業者は事業許可証が必要。", "required": false },
+      { "item": "招待状（該当する場合）", "detail": "友人訪問またはビジネス渡航の場合に必要。", "required": false }
+    ]
+  },
+  "phrases": {
+    "tag": "ランゲージガイド",
+    "title": "役立つスペイン語フレーズ",
+    "subtitle": "これらのフレーズをマスターして、旅をもっとスムーズに · クリックして発音を聞く",
+    "spanishLabel": "スペイン語",
+    "phoneticLabel": "読み方",
+    "usageLabel": "使うシーン",
+    "phrases": [
+      { "translation": "こんにちは", "spanish": "Hola", "phonetic": "オーラ", "category": "挨拶", "usage": "いつでも — とても一般的" },
+      { "translation": "ありがとう", "spanish": "Gracias", "phonetic": "グラシアス", "category": "礼儀", "usage": "サービスや助けを受けたとき" },
+      { "translation": "どういたしまして", "spanish": "De nada", "phonetic": "デ・ナーダ", "category": "礼儀", "usage": "「ありがとう」への返答" },
+      { "translation": "お願いします", "spanish": "Por favor", "phonetic": "ポル・ファボール", "category": "礼儀", "usage": "何かをお願いするとき" },
+      { "translation": "いくらですか？", "spanish": "¿Cuánto cuesta?", "phonetic": "クアント・クエスタ", "category": "買い物", "usage": "店や市場で" },
+      { "translation": "〜はどこですか？", "spanish": "¿Dónde está?", "phonetic": "ドンデ・エスタ", "category": "道案内", "usage": "道を尋ねるとき" },
+      { "translation": "これ／あれ", "spanish": "Esto/Eso", "phonetic": "エスト／エソ", "category": "指示", "usage": "商品を指差すとき" },
+      { "translation": "おいしい！", "spanish": "¡Está delicioso!", "phonetic": "エスタ・デリシオーソ", "category": "食事", "usage": "料理を褒めるとき" },
+      { "translation": "ビールを一杯", "spanish": "Una cerveza", "phonetic": "ウナ・セルベッサ", "category": "食事", "usage": "バーで必須" },
+      { "translation": "お会計をお願いします", "spanish": "La cuenta, por favor", "phonetic": "ラ・クエンタ・ポル・ファボール", "category": "食事", "usage": "レストランで支払うとき" },
+      { "translation": "助けて！", "spanish": "¡Ayuda!", "phonetic": "アユーダ", "category": "緊急", "usage": "緊急時に" },
+      { "translation": "道に迷いました", "spanish": "Estoy perdido/a", "phonetic": "エストイ・ペルディード", "category": "道案内", "usage": "助けを求めるとき" }
+    ],
+    "categoryColors": {
+      "挨拶": "bg-green-500/20 text-green-400 border-green-500/30",
+      "礼儀": "bg-blue-500/20 text-blue-400 border-blue-500/30",
+      "買い物": "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
+      "道案内": "bg-purple-500/20 text-purple-400 border-purple-500/30",
+      "指示": "bg-orange-500/20 text-orange-400 border-orange-500/30",
+      "食事": "bg-red-500/20 text-red-400 border-red-500/30",
+      "緊急": "bg-pink-500/20 text-pink-400 border-pink-500/30"
+    }
+  },
+  "portals": {
+    "tag": "厳選旅程",
+    "title": "おすすめの旅程",
+    "subtitle": "スペインの異なる魅力を体験する2つの厳選ルート",
+    "viewMore": "旅程の詳細を見る",
+    "portals": [
+      {
+        "season": "春の旅",
+        "dates": "5月 · 9日間",
+        "description": "マドリード · トレド · コルドバ · セビリア · グラナダ",
+        "highlights": ["アルハンブラ宮殿", "プラド美術館", "フラメンコショー", "アンダルシアの白い村"]
+      },
+      {
+        "season": "秋の旅",
+        "dates": "9月 · 9日間",
+        "description": "バルセロナ · バレンシア · イビサ · マジョルカ",
+        "highlights": ["サグラダ・ファミリア", "地中海ビーチ", "パエリア発祥の地", "バレアレス諸島"]
+      }
+    ]
+  },
+  "food": {
+    "heroTag": "Gastronomía Española",
+    "heroTitle": "スペインの食文化",
+    "heroSubtitle": "La Cultura Gastronómica de España",
+    "heroTagline": "タパスからパエリアまで — イベリア半島の食の魂を味わう",
+    "philosophyTag": "フィロソフィー",
+    "philosophyTitle": "食の哲学",
+    "philosophySubtitle": "スペイン人にとって食事は生活そのもの — 単なる空腹を満たす行為ではない",
+    "pillars": [
+      { "icon": "🫒", "title": "スローフード文化", "text": "ランチは14〜16時、ディナーは21〜23時。食事は一日で最も大切な儀式 — 急ぐことは決してない。" },
+      { "icon": "🍷", "title": "ソーシャルダイニング", "text": "食は集いの核心。タパス文化は人々がリラックスした雰囲気でシェアし、味わい、交流することを促す。" },
+      { "icon": "🌿", "title": "地中海の精華", "text": "オリーブオイル、新鮮な食材、季節の料理。シンプルな素材が熟練の手によって忘れられない一皿に変わる。" }
+    ],
+    "dishesTag": "必食グルメ",
+    "dishesTitle": "絶対食べたい8品",
+    "dishesSubtitle": "どの一品もスペインの食文化の縮図",
+    "dishes": [
+      { "name": "タパス", "es": "Tapas", "desc": "スペイン小皿文化の魂" },
+      { "name": "パエリア", "es": "Paella", "desc": "バレンシア発祥の国民料理" },
+      { "name": "イベリコハム", "es": "Jamón Ibérico", "desc": "世界最高級の生ハム" },
+      { "name": "ガスパチョ", "es": "Gazpacho", "desc": "アンダルシアの夏の清涼感" },
+      { "name": "チュロス", "es": "Churros", "desc": "ホットチョコレートと楽しむ朝食の定番" },
+      { "name": "ピンチョス", "es": "Pintxos", "desc": "バスク地方の洗練された小皿料理" },
+      { "name": "スペインオムレツ", "es": "Tortilla Española", "desc": "家庭の味、国民食" },
+      { "name": "ガリシア風タコ", "es": "Pulpo a la Gallega", "desc": "シーフードの王様" }
+    ],
+    "regionsTag": "地方グルメ",
+    "regionsTitle": "4大グルメ地域",
+    "regionsSubtitle": "各地域が全く異なる食のスタイルと代表料理を持つ",
+    "regions": [
+      {
+        "name": "カタルーニャ",
+        "es": "Cataluña",
+        "city": "Barcelona",
+        "desc": "カタルーニャ料理は創造性と精緻さで名高く、分子ガストロノミーの発祥地です。伝説的なレストラン「エル・ブジ」が世界の食の革命を牽引し、ボケリア市場には世界クラスの食材が集まります。地元産のカバ・スパークリングワインと合わせれば、一口ごとに芸術と味覚が融合します。",
+        "highlights": ["創造的な料理", "エル・ブジの遺産", "カバ・スパークリング", "ボケリア市場"]
+      },
+      {
+        "name": "アンダルシア",
+        "es": "Andalucía",
+        "city": "Seville · Granada",
+        "desc": "タパス文化の発祥地。ムーアとキリスト教文明の融合が独自の食スタイルを生みました。セビリアの旧市街のバーで、フィノ・シェリーとガスパチョ、ハモンを楽しめば、最も本物のアンダルシア体験が得られます。",
+        "highlights": ["タパス発祥の地", "ガスパチョ", "ハモン", "フィノ・シェリー"]
+      },
+      {
+        "name": "バレンシア",
+        "es": "Valencia",
+        "city": "Valencia",
+        "desc": "本場パエリア・バレンシアーナの故郷。地元産のボンバ米と新鮮な地中海の海産物で作られます。チュファのオルチャタはバレンシア独自の夏の飲み物で、黄金色の柑橘農園がこの地に太陽の香りをもたらします。",
+        "highlights": ["本場パエリア", "オルチャタ・デ・チュファ", "柑橘の産地", "地中海シーフード"]
+      },
+      {
+        "name": "バスク地方",
+        "es": "País Vasco",
+        "city": "San Sebastián · Bilbao",
+        "desc": "世界で最もミシュランスターの密度が高い地域。サン・セバスティアンは人口あたりのミシュラン星付きレストラン数で世界一を誇ります。街のピンチョスバーは食の探求の出発点に最適で、爽やかなチャコリ白ワインと合わせて楽しんでください。",
+        "highlights": ["世界最高のミシュラン星密度", "ピンチョス", "チャコリ白ワイン", "サン・セバスティアン"]
+      }
+    ],
+    "tipsTag": "ダイニングのヒント",
+    "tipsTitle": "食文化のヒント",
+    "tipsSubtitle": "地元の人のようにスペイン料理を楽しむコツ",
+    "tips": [
+      { "icon": "🕐", "title": "食事の時間", "body": "ランチ: 13:00〜16:00、ディナー: 21:00〜23:00。20時前にレストランに入ると、あなただけかもしれません。" },
+      { "icon": "🍺", "title": "タパスのマナー", "body": "カウンターに立ってオーダーし、ビールやワインと自由に組み合わせる。一部の地域では飲み物を頼むとタパスが無料でつきます。" },
+      { "icon": "💰", "title": "チップ文化", "body": "義務ではありません。満足したサービスには5〜10%が喜ばれます。カジュアルなタパスバーでは小銭で十分です。" },
+      { "icon": "🍷", "title": "ワインのペアリング", "body": "リオハ赤ワインは肉料理やハモンと、アルバリーニョ白ワインはシーフードと、カバはオードブルと相性抜群。" },
+      { "icon": "🗣️", "title": "注文フレーズ", "body": "「Una ración」= 一人前、「Una tapa」= 小皿一品、「La carta, por favor」= メニューをください。" },
+      { "icon": "🏪", "title": "マーケット体験", "body": "ボケリア市場（バルセロナ）とサン・ミゲル市場（マドリード）は必訪のグルメ市場です。" }
+    ]
+  },
+  "footer": {
+    "brandTitle": "スペイン探訪",
+    "brandDesc": "イベリア半島の美しさと深い文化を求める旅行者のためのプレミアムスペイン旅行ガイド。",
+    "itineraryTitle": "旅程",
+    "springLink": "春の旅 — マドリード・アンダルシア",
+    "autumnLink": "秋の旅 — バルセロナ・地中海",
+    "infoTitle": "実用情報",
+    "info": ["🛂 シェンゲンビザ", "💶 通貨：ユーロ (€)", "📞 緊急連絡先：112", "⏰ タイムゾーン：CET (UTC+1)"],
+    "copyright": "© 2024 スペイン探訪 | 参考情報です。実際の旅程は個人の状況に合わせて調整してください。"
+  },
+  "itinerary": {
+    "dailyLabel": "1日のスケジュール",
+    "foodLabel": "おすすめグルメ",
+    "location": "現在地",
+    "daysLabel": "日間プレミアム旅程",
+    "springTitle": "春の旅",
+    "springSubtitle": "Madrid · Toledo · Córdoba · Sevilla · Granada",
+    "springSeason": "春の旅程 · 9日間",
+    "autumnTitle": "秋の旅",
+    "autumnSubtitle": "Barcelona · Valencia · Ibiza · Mallorca",
+    "autumnSeason": "秋の旅程 · 9日間"
+  }
+}

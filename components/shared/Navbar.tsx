@@ -1,10 +1,13 @@
 "use client";
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const t = useTranslations("nav");
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -22,20 +25,24 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <Link href="/" className="text-white font-bold text-xl tracking-wide">
-          <span className="text-spain-gold">西</span>班牙
+          <span className="text-spain-gold">S</span>pain
           <span className="text-sm font-light ml-2 text-white/70">España</span>
         </Link>
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-6">
           <Link href="/" className="text-white/80 hover:text-white text-sm transition-colors">
-            首页
+            {t("home")}
           </Link>
           <Link href="/itinerary-a" className="text-white/80 hover:text-white text-sm transition-colors">
-            春季行程
+            {t("spring")}
           </Link>
           <Link href="/itinerary-b" className="text-white/80 hover:text-white text-sm transition-colors">
-            秋季行程
+            {t("autumn")}
+          </Link>
+          <Link href="/food-culture" className="text-white/80 hover:text-white text-sm transition-colors">
+            {t("food")}
           </Link>
           <span className="text-white/40 text-sm">🇪🇸</span>
+          <LanguageSwitcher />
         </div>
       </div>
     </motion.nav>
