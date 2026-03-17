@@ -1,6 +1,6 @@
 "use client";
-import { motion } from "framer-motion";
-import { useRef, useState } from "react";
+import { motion, useMotionValue, useAnimation } from "framer-motion";
+import { useRef, useCallback } from "react";
 import { useTranslations } from "next-intl";
 
 const cardImages = [
@@ -29,9 +29,26 @@ const cardSubtitles = [
 export default function CultureSection() {
   const t = useTranslations("culture");
   const constraintsRef = useRef<HTMLDivElement>(null);
-  const mobileConstraintsRef = useRef<HTMLDivElement>(null);
-  const [paused, setPaused] = useState(false);
+  const mobileRef = useRef<HTMLDivElement>(null);
+  const mobileX = useMotionValue(0);
+  const mobileControls = useAnimation();
   const cards = t.raw("cards") as Array<{ title: string; description: string }>;
+
+  // Card width (256px) + gap (24px) = 280px per card
+  const cardUnit = 280;
+  const setWidth = cards.length * cardUnit;
+
+  const handleMobileDragEnd = useCallback(() => {
+    let x = mobileX.get();
+    // Wrap around: keep x within [-setWidth, 0]
+    if (x < -setWidth) {
+      x = x + setWidth;
+      mobileX.set(x);
+    } else if (x > 0) {
+      x = x - setWidth;
+      mobileX.set(x);
+    }
+  }, [mobileX, setWidth]);
 
   const CardItem = ({ card, i }: { card: { title: string; description: string }; i: number }) => (
     <motion.div
@@ -89,23 +106,18 @@ export default function CultureSection() {
         </motion.div>
       </div>
 
-      {/* Mobile: infinite auto-scroll marquee with touch pause + drag */}
-      <div
-        ref={mobileConstraintsRef}
-        className="md:hidden overflow-hidden"
-        onTouchStart={() => setPaused(true)}
-        onTouchEnd={() => setPaused(false)}
-      >
+      {/* Mobile: draggable with loop */}
+      <div ref={mobileRef} className="md:hidden overflow-hidden">
         <motion.div
           className="flex gap-6 px-6 pb-4 cursor-grab active:cursor-grabbing"
-          style={{ width: "max-content" }}
-          animate={paused ? undefined : { x: ["0%", "-50%"] }}
-          transition={paused ? undefined : { duration: 40, repeat: Infinity, ease: "linear" }}
+          style={{ x: mobileX, width: "max-content" }}
           drag="x"
-          dragConstraints={mobileConstraintsRef}
-          dragElastic={0.1}
+          dragElastic={0.15}
+          dragConstraints={{ left: -setWidth * 2, right: setWidth }}
+          onDragEnd={handleMobileDragEnd}
+          animate={mobileControls}
         >
-          {[...cards, ...cards].map((card, i) => (
+          {[...cards, ...cards, ...cards].map((card, i) => (
             <div
               key={i}
               className="relative flex-shrink-0 w-64 h-80 rounded-2xl overflow-hidden"
