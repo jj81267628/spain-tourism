@@ -68,27 +68,37 @@ export default function Navbar() {
         </div>
       </motion.nav>
 
-      {/* Mobile dropdown menu */}
+      {/* Mobile backdrop + dropdown menu */}
       <AnimatePresence>
         {menuOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.2 }}
-            className="fixed top-[60px] left-0 right-0 z-40 glass-dark border-t border-white/10 py-4 px-6 flex flex-col gap-4 md:hidden"
-          >
-            {navLinks.map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                onClick={() => setMenuOpen(false)}
-                className="text-white/80 hover:text-white text-sm py-1 transition-colors"
-              >
-                {l.label}
-              </Link>
-            ))}
-          </motion.div>
+          <>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              className="fixed inset-0 z-30 md:hidden"
+              onClick={() => setMenuOpen(false)}
+            />
+            <motion.div
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.2 }}
+              className="fixed top-[60px] left-0 right-0 z-40 glass-dark border-t border-white/10 py-4 px-6 flex flex-col gap-4 md:hidden"
+            >
+              {navLinks.map((l) => (
+                <Link
+                  key={l.href}
+                  href={l.href}
+                  onClick={() => setMenuOpen(false)}
+                  className="text-white/80 hover:text-white text-sm py-1 transition-colors"
+                >
+                  {l.label}
+                </Link>
+              ))}
+            </motion.div>
+          </>
         )}
       </AnimatePresence>
     </>
