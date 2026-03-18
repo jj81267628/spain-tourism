@@ -207,12 +207,12 @@
     "tipsTitle": "用餐文化贴士",
     "tipsSubtitle": "掌握这些技巧，像本地人一样享用西班牙美食",
     "tips": [
-      { "icon": "🕐", "title": "用餐时间", "body": "午餐 13:00–16:00，晚餐 21:00–23:00。切勿在 20 点前进餐厅，否则可能只有你一桌。" },
-      { "icon": "🍺", "title": "塔帕斯礼仪", "body": "站在吧台前点单，随意搭配啤酒或葡萄酒。部分地区点饮料会免费赠送塔帕斯。" },
-      { "icon": "💰", "title": "小费文化", "body": "非强制性，满意的服务可留 5–10%。高档餐厅可多留，日常塔帕斯吧留硬币即可。" },
-      { "icon": "🍷", "title": "葡萄酒搭配", "body": "Rioja 红酒配肉类与火腿，Albariño 白酒配海鲜，Cava 起泡酒配开胃小食。" },
-      { "icon": "🗣️", "title": "点菜用语", "body": "「Una ración」= 一份，「Una tapa」= 小份，「La carta, por favor」= 请给我菜单。" },
-      { "icon": "🏪", "title": "市场体验", "body": "Mercado de la Boqueria（巴塞罗那）与 Mercado de San Miguel（马德里）是最值得逛的美食市场。" }
+      { "icon": "", "title": "用餐时间", "body": "午餐 13:00–16:00，晚餐 21:00–23:00。切勿在 20 点前进餐厅，否则可能只有你一桌。" },
+      { "icon": "", "title": "塔帕斯礼仪", "body": "站在吧台前点单，随意搭配啤酒或葡萄酒。部分地区点饮料会免费赠送塔帕斯。" },
+      { "icon": "", "title": "小费文化", "body": "非强制性，满意的服务可留 5–10%。高档餐厅可多留，日常塔帕斯吧留硬币即可。" },
+      { "icon": "", "title": "葡萄酒搭配", "body": "Rioja 红酒配肉类与火腿，Albariño 白酒配海鲜，Cava 起泡酒配开胃小食。" },
+      { "icon": "", "title": "点菜用语", "body": "「Una ración」= 一份，「Una tapa」= 小份，「La carta, por favor」= 请给我菜单。" },
+      { "icon": "", "title": "市场体验", "body": "Mercado de la Boqueria（巴塞罗那）与 Mercado de San Miguel（马德里）是最值得逛的美食市场。" }
     ]
   },
   "footer": {

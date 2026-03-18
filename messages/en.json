@@ -207,12 +207,12 @@
     "tipsTitle": "Dining Culture Tips",
     "tipsSubtitle": "Eat like a local with these insider tips",
     "tips": [
-      { "icon": "🕐", "title": "Meal Times", "body": "Lunch: 13:00–16:00; Dinner: 21:00–23:00. Don't arrive for dinner before 20:00 — you may be the only one there." },
-      { "icon": "🍺", "title": "Tapas Etiquette", "body": "Stand at the bar to order, and pair freely with beer or wine. In some regions, a free tapa comes with every drink ordered." },
-      { "icon": "💰", "title": "Tipping Culture", "body": "Not compulsory. A 5–10% tip is appreciated for good service. At casual tapas bars, leaving small coins is perfectly fine." },
-      { "icon": "🍷", "title": "Wine Pairing", "body": "Rioja red with meat and cured ham; Albariño white with seafood; Cava sparkling wine with starters." },
-      { "icon": "🗣️", "title": "Ordering Phrases", "body": "\"Una ración\" = full portion; \"Una tapa\" = small portion; \"La carta, por favor\" = the menu, please." },
-      { "icon": "🏪", "title": "Market Experience", "body": "Mercado de la Boqueria (Barcelona) and Mercado de San Miguel (Madrid) are the top food markets to visit." }
+      { "icon": "", "title": "Meal Times", "body": "Lunch: 13:00–16:00; Dinner: 21:00–23:00. Don't arrive for dinner before 20:00 — you may be the only one there." },
+      { "icon": "", "title": "Tapas Etiquette", "body": "Stand at the bar to order, and pair freely with beer or wine. In some regions, a free tapa comes with every drink ordered." },
+      { "icon": "", "title": "Tipping Culture", "body": "Not compulsory. A 5–10% tip is appreciated for good service. At casual tapas bars, leaving small coins is perfectly fine." },
+      { "icon": "", "title": "Wine Pairing", "body": "Rioja red with meat and cured ham; Albariño white with seafood; Cava sparkling wine with starters." },
+      { "icon": "", "title": "Ordering Phrases", "body": "\"Una ración\" = full portion; \"Una tapa\" = small portion; \"La carta, por favor\" = the menu, please." },
+      { "icon": "", "title": "Market Experience", "body": "Mercado de la Boqueria (Barcelona) and Mercado de San Miguel (Madrid) are the top food markets to visit." }
     ]
   },
   "footer": {

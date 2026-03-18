@@ -161,7 +161,6 @@ export default function FoodCulturePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {tips.map((tip, i) => (
               <motion.div key={tip.title} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: i * 0.1 }} className="glass-dark rounded-2xl p-7 hover:border-spain-gold/30 transition-colors duration-300">
-                <div className="text-3xl mb-4">{tip.icon}</div>
                 <h3 className="text-white font-bold text-lg mb-2">{tip.title}</h3>
                 <p className="text-white/60 text-sm leading-relaxed">{tip.body}</p>
               </motion.div>
