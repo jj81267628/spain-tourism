@@ -53,8 +53,8 @@ export default function DayPanel({ day, isActive, onVisible, dayIndex }: Props) 
             className="flex gap-4"
           >
             <div className="flex flex-col items-center">
-              <div className="w-8 h-8 rounded-full flex items-center justify-center text-sm flex-shrink-0" style={{ background: `${day.color}33`, border: `1px solid ${day.color}66` }}>
-                {activity.icon}
+              <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style={{ background: `${day.color}33`, border: `1px solid ${day.color}66` }}>
+                <div className="w-2 h-2 rounded-full bg-white" />
               </div>
               {i < day.activities.length - 1 && (
                 <div className="w-px h-full min-h-[20px] mt-1" style={{ background: `${day.color}33` }} />
