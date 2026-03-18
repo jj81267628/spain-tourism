@@ -1,5 +1,5 @@
 "use client";
-import { useState, useCallback } from "react";
+import { useState, useCallback, useRef, useEffect } from "react";
 import dynamic from "next/dynamic";
 import { useTranslations } from "next-intl";
 import type { DayData } from "@/data/itinerary-a";
@@ -20,6 +20,15 @@ interface Props {
 export default function ItineraryLayout({ days, title, subtitle, season }: Props) {
   const t = useTranslations("itinerary");
   const [activeDay, setActiveDay] = useState(0);
+  const progressBarRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const bar = progressBarRef.current;
+    const btn = bar?.querySelector(`[data-day-btn="${activeDay}"]`) as HTMLElement;
+    if (!bar || !btn) return;
+    const scrollLeft = btn.offsetLeft - bar.clientWidth / 2 + btn.clientWidth / 2;
+    bar.scrollTo({ left: scrollLeft, behavior: "smooth" });
+  }, [activeDay]);
 
   const handleDayVisible = useCallback((index: number) => {
     setActiveDay(index);
@@ -48,10 +57,11 @@ export default function ItineraryLayout({ days, title, subtitle, season }: Props
       </div>
 
       {/* Day progress bar */}
-      <div className="sticky top-16 z-40 px-6 py-3 glass-dark mx-4 rounded-full mb-8 flex items-center gap-2 overflow-x-auto">
+      <div ref={progressBarRef} className="sticky top-16 z-40 px-6 py-3 glass-dark mx-4 rounded-full mb-8 flex items-center gap-2 overflow-x-auto">
         {days.map((day, i) => (
           <button
             key={i}
+            data-day-btn={i}
             onClick={() => { setActiveDay(i); scrollToDay(i); }}
             className={`flex-shrink-0 flex items-center gap-1.5 px-3 py-1 rounded-full text-xs transition-all duration-300 ${
               i === activeDay ? "text-white font-semibold" : "text-white/40 hover:text-white/70"
