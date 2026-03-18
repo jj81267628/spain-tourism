@@ -61,12 +61,12 @@
   "visa": {
     "tag": "Travel Guide",
     "title": "Essential Travel Guide",
-    "climateTitle": "🌤️ Climate & Best Season",
-    "practicalTitle": "💡 Practical Info",
-    "visaTitle": "🛂 Schengen Visa Checklist",
+    "climateTitle": "Climate & Best Season",
+    "practicalTitle": "Practical Info",
+    "visaTitle": "Schengen Visa Checklist",
     "visaSubtitle": "Processing time ~15 working days · Visa fee ~€80",
     "ifApplicable": "If applicable",
-    "warningTitle": "⚠️ Important Notice",
+    "warningTitle": "Important Notice",
     "warningText": "Apply at least 2 months in advance. Allow extra time during peak season. Submit via the Spanish Embassy or an authorised visa centre.",
     "weather": [
       { "season": "Spring (Mar–May)", "temp": "10–20°C", "weather": "Mild and pleasant", "rating": 5 },
@@ -75,12 +75,12 @@
       { "season": "Winter (Dec–Feb)", "temp": "5–15°C", "weather": "Mild and rainy", "rating": 3 }
     ],
     "practical": [
-      { "icon": "💶", "label": "Currency", "value": "Euro (€)\n1€ ≈ $1.10" },
-      { "icon": "🔌", "label": "Plug", "value": "Type C (EU)\n220V" },
-      { "icon": "📱", "label": "Internet", "value": "Local SIM\nor roaming" },
-      { "icon": "🚗", "label": "Transport", "value": "AVE high-speed\ntrain network" },
-      { "icon": "⏰", "label": "Time Zone", "value": "CET (UTC+1)\nCEST in summer" },
-      { "icon": "🏥", "label": "Medical", "value": "Emergency: 112\nExcellent hospitals" }
+      { "icon": "", "label": "Currency", "value": "Euro (€)\n1€ ≈ $1.10" },
+      { "icon": "", "label": "Plug", "value": "Type C (EU)\n220V" },
+      { "icon": "", "label": "Internet", "value": "Local SIM\nor roaming" },
+      { "icon": "", "label": "Transport", "value": "AVE high-speed\ntrain network" },
+      { "icon": "", "label": "Time Zone", "value": "CET (UTC+1)\nCEST in summer" },
+      { "icon": "", "label": "Medical", "value": "Emergency: 112\nExcellent hospitals" }
     ],
     "checklist": [
       { "item": "Valid Passport", "detail": "Valid for 6+ months beyond your stay, with at least 2 blank pages.", "required": true },
@@ -153,9 +153,9 @@
     "philosophyTitle": "Dining Philosophy",
     "philosophySubtitle": "For Spaniards, eating is life itself — not merely sustenance",
     "pillars": [
-      { "icon": "🫒", "title": "Slow Food Culture", "text": "Lunch at 2–4 pm, dinner at 9–11 pm. Mealtimes are the most important ritual of the day — never rushed." },
-      { "icon": "🍷", "title": "Social Dining", "text": "Food is the heart of every gathering. Tapas culture invites people to share, taste and connect in a relaxed atmosphere." },
-      { "icon": "🌿", "title": "Mediterranean Essence", "text": "Olive oil, fresh produce, seasonal cooking. Simple ingredients transformed into unforgettable dishes by skilled hands." }
+      { "icon": "", "title": "Slow Food Culture", "text": "Lunch at 2–4 pm, dinner at 9–11 pm. Mealtimes are the most important ritual of the day — never rushed." },
+      { "icon": "", "title": "Social Dining", "text": "Food is the heart of every gathering. Tapas culture invites people to share, taste and connect in a relaxed atmosphere." },
+      { "icon": "", "title": "Mediterranean Essence", "text": "Olive oil, fresh produce, seasonal cooking. Simple ingredients transformed into unforgettable dishes by skilled hands." }
     ],
     "dishesTag": "Must Try",
     "dishesTitle": "8 Must-Try Dishes",
@@ -222,7 +222,7 @@
     "springLink": "Spring Journey — Madrid · Andalusia",
     "autumnLink": "Autumn Journey — Barcelona · Mediterranean",
     "infoTitle": "Useful Info",
-    "info": ["🛂 Schengen Visa", "💶 Currency: Euro (€)", "📞 Emergency: 112", "⏰ Time Zone: CET (UTC+1)"],
+    "info": ["Schengen Visa", "Currency: Euro (€)", "Emergency: 112", "Time Zone: CET (UTC+1)"],
     "copyright": "© 2024 Discover Spain | For reference only. Adjust itineraries to suit your needs."
   },
   "itinerary": {

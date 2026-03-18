@@ -85,7 +85,6 @@ export default function FoodCulturePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {pillars.map((pillar, i) => (
               <motion.div key={pillar.title} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: i * 0.15 }} className="glass-dark rounded-2xl p-8 text-center">
-                <div className="text-5xl mb-5">{pillar.icon}</div>
                 <h3 className="text-xl font-bold text-white mb-3">{pillar.title}</h3>
                 <p className="text-white/60 leading-relaxed text-sm">{pillar.text}</p>
               </motion.div>

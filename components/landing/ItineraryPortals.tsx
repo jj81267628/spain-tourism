@@ -55,12 +55,9 @@ export default function ItineraryPortals() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
 
                   <div className="absolute bottom-0 left-0 right-0 p-8">
-                    <div className="flex items-center gap-3 mb-3">
-                      <span className="text-3xl">{portalBadges[i]}</span>
-                      <div>
-                        <p className="text-white/60 text-sm">{portalSeasonEs[i]}</p>
-                        <h3 className="text-white text-3xl font-bold">{portal.season}</h3>
-                      </div>
+                    <div className="mb-3">
+                      <p className="text-white/60 text-sm">{portalSeasonEs[i]}</p>
+                      <h3 className="text-white text-3xl font-bold">{portal.season}</h3>
                     </div>
                     <p className="text-spain-gold text-sm mb-2">{portal.dates}</p>
                     <p className="text-white/80 text-sm mb-4">{portal.description}</p>

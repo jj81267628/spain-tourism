@@ -61,12 +61,12 @@
   "visa": {
     "tag": "Travel Guide",
     "title": "出行必备指南",
-    "climateTitle": "🌤️ 气候与最佳旅游季节",
-    "practicalTitle": "💡 实用信息",
-    "visaTitle": "🛂 申根签证材料清单",
+    "climateTitle": "气候与最佳旅游季节",
+    "practicalTitle": "实用信息",
+    "visaTitle": "申根签证材料清单",
     "visaSubtitle": "处理时间约15工作日 · 签证费约80€（约¥620）",
     "ifApplicable": "如适用",
-    "warningTitle": "⚠️ 重要提示",
+    "warningTitle": "重要提示",
     "warningText": "建议提前2个月申请签证，旅游旺季可能需要更长时间。可通过西班牙驻华大使馆或授权签证中心提交申请。",
     "weather": [
       { "season": "春季 (3-5月)", "temp": "10-20°C", "weather": "温和宜人", "rating": 5 },
@@ -75,12 +75,12 @@
       { "season": "冬季 (12-2月)", "temp": "5-15°C", "weather": "温和多雨", "rating": 3 }
     ],
     "practical": [
-      { "icon": "💶", "label": "货币", "value": "欧元 (€)\n1€ ≈ ¥7.8" },
-      { "icon": "🔌", "label": "插头", "value": "欧标两圆脚\n220V" },
-      { "icon": "📱", "label": "上网", "value": "购买当地SIM\n或使用漫游" },
-      { "icon": "🚗", "label": "交通", "value": "AVE高铁\n城际方便" },
-      { "icon": "⏰", "label": "时差", "value": "比北京晚7小时\n（夏令时晚6小时）" },
-      { "icon": "🏥", "label": "医疗", "value": "急救: 112\n医院质量佳" }
+      { "icon": "", "label": "货币", "value": "欧元 (€)\n1€ ≈ ¥7.8" },
+      { "icon": "", "label": "插头", "value": "欧标两圆脚\n220V" },
+      { "icon": "", "label": "上网", "value": "购买当地SIM\n或使用漫游" },
+      { "icon": "", "label": "交通", "value": "AVE高铁\n城际方便" },
+      { "icon": "", "label": "时差", "value": "比北京晚7小时\n（夏令时晚6小时）" },
+      { "icon": "", "label": "医疗", "value": "急救: 112\n医院质量佳" }
     ],
     "checklist": [
       { "item": "有效护照", "detail": "有效期须超过预计停留时间6个月以上，且有至少两页空白页", "required": true },
@@ -153,9 +153,9 @@
     "philosophyTitle": "饮食哲学",
     "philosophySubtitle": "西班牙人将进食视为生活本身，而非仅仅是充饥的手段",
     "pillars": [
-      { "icon": "🫒", "title": "慢食文化", "text": "午饭 2–4 pm，晚饭 9–11 pm。用餐是一天中最重要的仪式，时间从不匆忙。" },
-      { "icon": "🍷", "title": "社交饮食", "text": "食物是聚会的核心。塔帕斯文化让人们在轻松氛围中分享、品尝、交流。" },
-      { "icon": "🌿", "title": "地中海精华", "text": "橄榄油、新鲜食材、季节性烹饪。简单的原料经过巧手变为令人难忘的佳肴。" }
+      { "icon": "", "title": "慢食文化", "text": "午饭 2–4 pm，晚饭 9–11 pm。用餐是一天中最重要的仪式，时间从不匆忙。" },
+      { "icon": "", "title": "社交饮食", "text": "食物是聚会的核心。塔帕斯文化让人们在轻松氛围中分享、品尝、交流。" },
+      { "icon": "", "title": "地中海精华", "text": "橄榄油、新鲜食材、季节性烹饪。简单的原料经过巧手变为令人难忘的佳肴。" }
     ],
     "dishesTag": "Must Try",
     "dishesTitle": "八大必尝美食",
@@ -222,7 +222,7 @@
     "springLink": "春季之旅 — 马德里·安达卢西亚",
     "autumnLink": "秋季之旅 — 巴塞罗那·地中海",
     "infoTitle": "实用信息",
-    "info": ["🛂 申根签证申请", "💶 货币：欧元 (€)", "📞 紧急电话：112", "⏰ 时区：CET (UTC+1)"],
+    "info": ["申根签证申请", "货币：欧元 (€)", "紧急电话：112", "时区：CET (UTC+1)"],
     "copyright": "© 2024 探索西班牙 | 仅供参考，实际行程请根据个人情况调整"
   },
   "itinerary": {

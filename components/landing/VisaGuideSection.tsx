@@ -57,7 +57,6 @@ export default function VisaGuideSection() {
               <div className="grid grid-cols-2 gap-4">
                 {practical.map((item, i) => (
                   <div key={i} className="bg-white/5 rounded-xl p-3">
-                    <p className="text-xl mb-1">{item.icon}</p>
                     <p className="text-white/50 text-xs">{item.label}</p>
                     <p className="text-white text-sm font-medium whitespace-pre-line">{item.value}</p>
                   </div>
