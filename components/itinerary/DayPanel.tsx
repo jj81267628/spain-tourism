@@ -109,7 +109,6 @@ export default function DayPanel({ day, isActive, onVisible, dayIndex }: Props) 
           <div className="space-y-2">
             {day.food.map((f, i) => (
               <div key={i} className="flex items-start gap-3 p-3 rounded-xl bg-white/5">
-                <span className="text-xl">🍽️</span>
                 <div>
                   <p className="text-white text-sm font-medium">{f.dish}</p>
                   <p className="text-spain-gold text-xs">{f.dishEs} · {f.restaurant}</p>
